@@ -7,6 +7,7 @@ It scrapes the site content based on your profile information given in the confi
 
 I made it in order to have offline access to this great online course : (https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info), check it out !
 
+Still in early developement, can only download on course at a time for now.
 
 Install
 ---
@@ -28,6 +29,11 @@ Replace placeholder fields in the configuration file in YAML format, example :
 	download:
     	path: "/data/kadenze-dl"
     	courses: "course-1"
+
+course name should be as it appears in the URL, example :
+
+    https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow-iv
+    courses: "creative-applications-of-deep-learning-with-tensorflow-iv"
 
 Run the application :
 
