@@ -1,0 +1,6 @@
+kadenze:
+    login: "myemail@gmail.com"
+    password: "mypassword"
+download:
+    path: "/data/kadenze-dl"
+    courses: "creative-applications-of-deep-learning-with-tensorflow-i"
