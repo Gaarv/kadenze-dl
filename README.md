@@ -28,9 +28,6 @@ Replace placeholder fields in the configuration file in YAML format, example :
 	download:
     	path: "/data/kadenze-dl"
     	courses: "course-1"
-    			 - "course-2"
-    			 - "course-3"
-
 
 Run the application :
 
