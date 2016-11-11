@@ -1,2 +1,4 @@
 requests==2.10.0
 robobrowser==0.5.3
+PyYAML==3.12
+lxml==3.6.4
