@@ -7,14 +7,13 @@ It scrapes the site content based on your profile information given in the confi
 
 I made it in order to have offline access to this great online course : (https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info), check it out !
 
-Still in early developement, can only download on course at a time for now.
 
 Install
 ---
 
-For now, download and unzip package. Will be on PyPI soon.
+For now, download and unzip package. Will be on PyPI when finalized.
 
-Install requirements :
+Install requirements (Python 3):
   
     pip install -r requirements.txt
 
@@ -23,18 +22,34 @@ Usage
 
 Replace placeholder fields in the configuration file in YAML format, example :
 
-	kadenze:
-    	login: "myemail@gmail.com"
-    	password: "mypassword"
-	download:
-    	path: "/data/kadenze-dl"
-    	courses: "course-1"
+    kadenze:
+        login: "myemail@gmail.com"
+        password: "mypassword"
+    download:
+        path: "/home/user/videos/kadenze"
+        workers: 4
+    courses:
+            - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
+            - "creative-applications-of-deep-learning-with-tensorflow-i"
 
-course name should be as it appears in the URL, example :
+The workers value define how many parallelized downloads should run
 
+course name should be as it appears in the URL, examples :
+
+    https://www.kadenze.com/courses/physics-based-sound-synthesis-for-games-and-interactive-systems-iv
     https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow-iv
-    courses: "creative-applications-of-deep-learning-with-tensorflow-iv"
+
+In configuration.yml :
+    
+    courses:
+       - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
+       - "creative-applications-of-deep-learning-with-tensorflow-i"
 
 Run the application :
 
 	python kadenze-dl.py
+
+Note
+---
+
+Plase be fair to Kadenze and keep the videos for offline and personal use only, do not redistribute them.

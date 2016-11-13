@@ -3,7 +3,7 @@ from kadenzeclient import KadenzeClient
 
 def main():
     client = KadenzeClient()
-    client.download_videos_all()
+    client.download_all_courses_videos()
 
 
 if __name__ == '__main__':
