@@ -49,7 +49,7 @@ Run the application :
 
 	python kadenze-dl.py
 
-Note
+Notes
 ---
-
-Plase be fair to Kadenze and keep the videos for offline and personal use only, do not redistribute them.
+You must be enrolled in the course for which you want to download related videos
+Please be fair to Kadenze and keep the videos for offline and personal use only, do not redistribute them.
