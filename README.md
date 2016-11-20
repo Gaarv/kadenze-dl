@@ -33,6 +33,7 @@ Replace placeholder fields in the configuration file in YAML format, example :
             - "creative-applications-of-deep-learning-with-tensorflow-i"
 
 The workers value define how many parallelized downloads should run
+
 Note : multiprocessing is disabled for now, working on it
 
 course name should be as it appears in the URL, examples :
