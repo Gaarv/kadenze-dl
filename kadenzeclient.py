@@ -51,11 +51,10 @@ class KadenzeClient:
         videos = [self.list_videos(url) for url in sessions]
         videos_per_sessions = zip(sessions, videos)
         for session_name, session_videos in videos_per_sessions:
-            # debug
             download_videos_per_session(self.config.path, session_name, session_videos)
-            # p = Process(target=download_videos_per_session, args=(self.config.path, session_name, session_videos))
-            # jobs.append(p)
-            # p.start()
+            #p = Process(target=download_videos_per_session, args=(self.config.path, session_name, session_videos))
+            #jobs.append(p)
+            #p.start()
 
     def download_all_courses_videos(self):
         self.execute_login()
