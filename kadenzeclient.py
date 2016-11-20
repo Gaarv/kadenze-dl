@@ -1,11 +1,13 @@
 import json
 import re
 import os
+import sys
 import requests
 from requests import Session
 from robobrowser import RoboBrowser
 from config import Config
 from multiprocessing import Process
+from progress import progress
 
 
 class KadenzeClient:
@@ -16,6 +18,7 @@ class KadenzeClient:
         self.browser = RoboBrowser(history=True, session=self.session, parser="lxml", allow_redirects=False)
 
     def execute_login(self):
+        print("Signing in www.kadenze.com ...")
         self.browser.open(self.base_url)
         signup_form = self.browser.get_form(id="login_user")
         signup_form['user[email]'].value = self.config.login
@@ -48,25 +51,28 @@ class KadenzeClient:
         videos = [self.list_videos(url) for url in sessions]
         videos_per_sessions = zip(sessions, videos)
         for session_name, session_videos in videos_per_sessions:
-            p = Process(target=download_videos_per_session, args=(self.config.path, session_name, session_videos))
-            jobs.append(p)
-            p.start()
+            # debug
+            download_videos_per_session(self.config.path, session_name, session_videos)
+            # p = Process(target=download_videos_per_session, args=(self.config.path, session_name, session_videos))
+            # jobs.append(p)
+            # p.start()
 
     def download_all_courses_videos(self):
         self.execute_login()
         enrolled_courses = [format_course(course) for course in self.list_courses()]
         courses = set(self.config.courses).intersection(enrolled_courses)
         for course in courses:
+            print("Parsing course: {0}".format(course))
             self.download_course_videos(course)
-
-
-def format_course(course):
-    return "{0}".format(course.split("/")[-1])
 
 
 def create_session():
     session = Session()
     return session
+
+
+def format_course(course):
+    return "{0}".format(course.split("/")[-1])
 
 
 def get_courses_from_json(response):
@@ -83,20 +89,43 @@ def get_videos_from_json(response):
 
 def download_videos_per_session(base_path, session_name, session_videos):
     session_name = session_name.replace("courses/", "").replace("sessions/", "")
+    print("Parsing session: {0}".format(session_name.split("/")[-1]))
     for video_url in session_videos:
-        write_video(base_path, session_name, video_url)
+        download_video(base_path, session_name, video_url)
 
 
-def write_video(base_path, session_name, video_url):
-    r = requests.get(video_url, stream=True)
+def download_video(base_path, session_name, video_url):
     pattern = re.search("file/(.*mp4)", video_url)
     filename = pattern.group(1)
     session_prefix = re.search(r'\d+', filename).group()
     course, session = session_name.split("/")[-2], session_name.split("/")[-1]
     session = session_prefix + "-" + session
     full_path = base_path + "/" + course + "/" + session
-    print("Downloading {0}...".format(session + "/" + filename))
     os.makedirs(full_path, exist_ok=True)
-    with open(full_path + "/" + filename, 'wb') as fd:
-        for chunk in r.iter_content(chunk_size=4096):
-            fd.write(chunk)
+    write_video(video_url, full_path, filename)
+
+
+def write_video(video_url, full_path, filename, chunk_size=4096):
+    size = int(requests.head(video_url).headers['Content-Length'])
+    size_on_disk = check_if_file_exists(full_path, filename)
+    if size_on_disk < size:
+        with open(full_path + "/" + filename, 'wb') as fd:
+            r = requests.get(video_url, stream=True)
+            current_size = 0
+            for chunk in r.iter_content(chunk_size=chunk_size):
+                fd.write(chunk)
+                current_size += chunk_size
+                s = progress(current_size, size, filename)
+                sys.stdout.write(s)
+                sys.stdout.flush()
+            print(s)
+    else:
+        print("{0} already downloaded, skipping...".format(filename))
+
+
+def check_if_file_exists(full_path, filename):
+    try:
+        size = os.path.getsize(full_path + "/" + filename)
+    except os.error:
+        size = 0
+    return size
