@@ -48,8 +48,10 @@ Run the application :
 
 Notes
 ---
-You must be enrolled in the course for which you want to download related videos
+You must be enrolled in the course for which you want to download related videos.
+
 Please be fair to Kadenze and keep the videos for offline and personal use only, do not redistribute them
+
 Videos already present in the same path but incomplete are re-downloaded at the next run
 
 Credits
