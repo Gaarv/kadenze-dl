@@ -1,21 +1,27 @@
 import json
 import re
 import os
-import sys
 import requests
 from requests import Session
 from robobrowser import RoboBrowser
 from config import Config
-from multiprocessing import Process
 from progress import progress
 
 
-class KadenzeClient:
+class KadenzeClient(object):
+    current_session = None
+    current_prefix = None
+
     def __init__(self):
         self.config = Config()
         self.base_url = "https://www.kadenze.com"
         self.session = create_session()
         self.browser = RoboBrowser(history=True, session=self.session, parser="lxml", allow_redirects=False)
+
+    def __new__(cls, *args, **kwargs):
+        if not hasattr(cls, 'instance'):
+            cls.instance = super(KadenzeClient, cls).__new__(cls)
+        return cls.instance
 
     def execute_login(self):
         print("Signing in www.kadenze.com ...")
@@ -45,16 +51,26 @@ class KadenzeClient:
         videos = get_videos_from_json(response)
         return videos
 
+    def download_videos_per_session(self, course, session, session_videos):
+        print("Parsing session: {0}".format(session))
+        for i, video_url in enumerate(session_videos):
+            pattern = re.search("file/(.*mp4)", video_url)
+            filename = pattern.group(1)
+            if i == 0:
+                session_prefix = re.search(r'\d+', filename).group()
+                session_prefixed = session_prefix + "-" + session
+                full_path = self.config.path + "/" + course + "/" + session_prefixed
+                os.makedirs(full_path, exist_ok=True)
+            write_video(video_url, full_path, filename)
+
     def download_course_videos(self, course):
-        jobs = []
         sessions = self.list_sessions(course)
         videos = [self.list_videos(url) for url in sessions]
         videos_per_sessions = zip(sessions, videos)
-        for session_name, session_videos in videos_per_sessions:
-            download_videos_per_session(self.config.path, session_name, session_videos)
-            #p = Process(target=download_videos_per_session, args=(self.config.path, session_name, session_videos))
-            #jobs.append(p)
-            #p.start()
+        for session_data, session_videos in videos_per_sessions:
+            session_data = session_data.replace("courses/", "").replace("sessions/", "")
+            course, session = session_data.split("/")[-2], session_data.split("/")[-1]
+            self.download_videos_per_session(course, session, session_videos)
 
     def download_all_courses_videos(self):
         self.execute_login()
@@ -86,24 +102,6 @@ def get_videos_from_json(response):
     return videos
 
 
-def download_videos_per_session(base_path, session_name, session_videos):
-    session_name = session_name.replace("courses/", "").replace("sessions/", "")
-    print("Parsing session: {0}".format(session_name.split("/")[-1]))
-    for video_url in session_videos:
-        download_video(base_path, session_name, video_url)
-
-
-def download_video(base_path, session_name, video_url):
-    pattern = re.search("file/(.*mp4)", video_url)
-    filename = pattern.group(1)
-    session_prefix = re.search(r'\d+', filename).group()
-    course, session = session_name.split("/")[-2], session_name.split("/")[-1]
-    session = session_prefix + "-" + session
-    full_path = base_path + "/" + course + "/" + session
-    os.makedirs(full_path, exist_ok=True)
-    write_video(video_url, full_path, filename)
-
-
 def write_video(video_url, full_path, filename, chunk_size=4096):
     size = int(requests.head(video_url).headers['Content-Length'])
     size_on_disk = check_if_file_exists(full_path, filename)
@@ -115,8 +113,7 @@ def write_video(video_url, full_path, filename, chunk_size=4096):
                 fd.write(chunk)
                 current_size += chunk_size
                 s = progress(current_size, size, filename)
-                sys.stdout.write(s)
-                sys.stdout.flush()
+                print(s, end='', flush=True)
             print(s)
     else:
         print("{0} already downloaded, skipping...".format(filename))
