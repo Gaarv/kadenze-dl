@@ -27,14 +27,9 @@ Replace placeholder fields in the configuration file in YAML format, example :
         password: "mypassword"
     download:
         path: "/home/user/videos/kadenze"
-        workers: 4
-    courses:
+        courses:
             - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
             - "creative-applications-of-deep-learning-with-tensorflow-i"
-
-The workers value define how many parallelized downloads should run
-
-Note : multiprocessing is disabled for now, working on it
 
 course name should be as it appears in the URL, examples :
 
