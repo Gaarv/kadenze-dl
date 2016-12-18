@@ -3,7 +3,6 @@ kadenze:
     password: "mypassword"
 download:
     path: "/home/user/videos/kadenze"
-    workers: 4
     courses:
             - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
             - "creative-applications-of-deep-learning-with-tensorflow-i"

@@ -27,14 +27,9 @@ Replace placeholder fields in the configuration file in YAML format, example :
         password: "mypassword"
     download:
         path: "/home/user/videos/kadenze"
-        workers: 4
-    courses:
+        courses:
             - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
             - "creative-applications-of-deep-learning-with-tensorflow-i"
-
-The workers value define how many parallelized downloads should run
-
-Note : multiprocessing is disabled for now, working on it
 
 course name should be as it appears in the URL, examples :
 
@@ -53,8 +48,10 @@ Run the application :
 
 Notes
 ---
-You must be enrolled in the course for which you want to download related videos
+You must be enrolled in the course for which you want to download related videos.
+
 Please be fair to Kadenze and keep the videos for offline and personal use only, do not redistribute them
+
 Videos already present in the same path but incomplete are re-downloaded at the next run
 
 Credits
