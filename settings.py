@@ -1,7 +1,7 @@
 import yaml
 
 
-class Config(object):
+class Settings(object):
     def __init__(self):
         with open("configuration.yml", 'r') as configfile:
             self.config = yaml.load(configfile)
@@ -12,5 +12,5 @@ class Config(object):
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, 'instance'):
-            cls.instance = super(Config, cls).__new__(cls)
+            cls.instance = super(Settings, cls).__new__(cls)
         return cls.instance
