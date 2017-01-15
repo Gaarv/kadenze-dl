@@ -9,6 +9,7 @@ class Settings(object):
         self.password = self.config['kadenze']['password']
         self.path = self.config['download']['path']
         self.courses = self.config['download']['courses']
+        self.video_format = self.config['download']['resolution']
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, 'instance'):

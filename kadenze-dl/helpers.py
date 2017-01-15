@@ -34,9 +34,10 @@ def get_sessions_from_links(course, links):
     return sessions
 
 
-def get_videos_from_json(response):
+def get_videos_from_json(response, resolution):
     json_string = json.loads(response)
-    videos = [video["h264_720_url"] for video in json_string["videos"]]
+    video_format = "h264_{0}_url".format(resolution)
+    videos = [video[video_format] for video in json_string["videos"]]
     return videos
 
 

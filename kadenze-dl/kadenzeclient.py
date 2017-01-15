@@ -37,7 +37,7 @@ class KadenzeClient(object):
     def list_videos(self, url):
         self.browser.open(self.base_url + url)
         response = self.browser.select("#video_json")[0]["value"]
-        videos = helpers.get_videos_from_json(response)
+        videos = helpers.get_videos_from_json(response, self.conf.video_format)
         return videos
 
     def download_videos_per_session(self, course, session, session_videos):
