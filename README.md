@@ -13,7 +13,7 @@ Install
 
 Install requirements (Python 3):
 
-    download or clone repository then into root directory:
+Download or clone repository, then into root directory
 
     pip install -r requirements.txt
 
