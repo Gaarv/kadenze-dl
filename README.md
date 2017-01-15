@@ -12,14 +12,16 @@ Install
 ---
 
 Install requirements (Python 3):
-  
+
+    download or clone repository then into root directory:
+
     pip install -r requirements.txt
 
 
 Usage 
 ---
 
-Replace placeholder fields in the configuration file in YAML format, example :
+Replace placeholder fields in the configuration file located into kadenze-dl subdirectory, in YAML format, example :
 
     kadenze:
         login: "myemail@gmail.com"
@@ -44,6 +46,8 @@ In configuration.yml :
        - "creative-applications-of-deep-learning-with-tensorflow-i"
 
 Run the application :
+
+    cd kadenze-dl/
 
 	python kadenze-dl.py
 
