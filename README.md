@@ -31,7 +31,7 @@ Replace placeholder fields in the configuration file located into kadenze-dl sub
         path: "/home/user/videos/kadenze"     # The absolute path to download to
         courses:                              # Courses to download, as they appear in the URL
                 - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
-                - "creative-applications-of-deep-learning-with-tensorflow-i"
+                - "creative-applications-of-deep-learning-with-tensorflow-iv"
 
 
 course name should be as it appears in the URL, examples :
@@ -43,7 +43,7 @@ In configuration.yml :
     
     courses:
        - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
-       - "creative-applications-of-deep-learning-with-tensorflow-i"
+       - "creative-applications-of-deep-learning-with-tensorflow-iv"
 
 Run the application :
 

@@ -23,15 +23,15 @@ class KadenzeClient(object):
 
     def list_courses(self):
         self.browser.open(self.base_url)
-        response = self.browser.parsed()[0].text
+        response = self.browser.response.text
         courses = helpers.get_courses_from_json(response)
         return courses
 
     def list_sessions(self, course):
         sessions_url = "/".join((self.base_url, "courses", course, "sessions"))
         self.browser.open(sessions_url)
-        links = self.browser.get_links()
-        sessions = helpers.get_sessions_from_links(course, links)
+        response = self.browser.response.text
+        sessions = helpers.get_sessions_from_json(response)
         return sessions
 
     def list_videos(self, url):

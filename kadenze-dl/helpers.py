@@ -28,9 +28,9 @@ def get_courses_from_json(response):
     return courses
 
 
-def get_sessions_from_links(course, links):
-    results = [link["href"] for link in links if course in link["href"]]
-    sessions = list({result for result in results if "sessions/" in result})
+def get_sessions_from_json(response):
+    json_string = json.loads(response)
+    sessions = [session["delete_lecture_path"] for session in json_string["lectures"]]
     return sessions
 
 
