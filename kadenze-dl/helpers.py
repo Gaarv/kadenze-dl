@@ -30,7 +30,7 @@ def get_courses_from_json(response):
 
 def get_sessions_from_json(response):
     json_string = json.loads(response)
-    sessions = [session["delete_lecture_path"] for session in json_string["lectures"]]
+    sessions = [session["course_session_path"] for session in json_string["lectures"]]
     return sessions
 
 
