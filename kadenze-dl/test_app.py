@@ -12,7 +12,7 @@ def test_extract_filename():
 
 
 def test_courses_from_json():
-    course_json = '{"courses": [{"course_path": "/courses/creative-applications-of-deep-learning-with-tensorflow-i"}]}'
+    course_json = '{"my_courses": [{"course_path": "/courses/creative-applications-of-deep-learning-with-tensorflow-i"}]}'
     courses = helpers.get_courses_from_json(course_json)
     assert courses == ["/courses/creative-applications-of-deep-learning-with-tensorflow-i"]
 
