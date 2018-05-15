@@ -24,7 +24,7 @@ def extract_session_prefix(filename):
 
 def get_courses_from_json(response):
     json_string = json.loads(response)
-    courses = [course["course_path"] for course in json_string["courses"]]
+    courses = [course["course_path"] for course in json_string["my_courses"]]
     return courses
 
 
