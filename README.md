@@ -13,7 +13,7 @@ I made it in order to have offline access to this great online course : (https:/
 Install
 ---
 
-Install requirements (Python 3):
+Install requirements (Python 3.x only, tested up to Python 3.6.3):
 
 Download or clone repository, then into root directory
 
