@@ -19,6 +19,8 @@ Download or clone repository, then into root directory
 
     pip install -r requirements.txt
 
+If you encounter issues installing lxml or pyyaml on Windows, you can try unofficial binaries from Christoph Gohlke at https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
 
 Usage 
 ---
