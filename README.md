@@ -33,6 +33,7 @@ Replace placeholder fields in the configuration file located into kadenze-dl sub
     download:
         resolution: "720"                     # Video definition to download. Valid values are "720" or "360".
         path: "/home/user/videos/kadenze"     # The absolute path to download to
+        videos_titles: true                   # name files with videos titles when possible
         courses:                              # Courses to download, as they appear in the URL
                 - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
                 - "creative-applications-of-deep-learning-with-tensorflow-iv"

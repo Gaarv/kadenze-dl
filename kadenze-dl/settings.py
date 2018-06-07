@@ -10,6 +10,7 @@ class Settings(object):
         self.path = self.config['download']['path']
         self.courses = self.config['download']['courses']
         self.video_format = self.config['download']['resolution']
+        self.videos_titles = self.config['download']['videos_titles']
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, 'instance'):

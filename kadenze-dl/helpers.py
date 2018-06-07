@@ -2,6 +2,7 @@ import os
 import json
 import re
 import requests
+from slugify import slugify
 from progress import progress
 
 filename_pattern = re.compile("file/(.*\.mp4)\?")
@@ -39,6 +40,21 @@ def get_videos_from_json(response, resolution):
     video_format = "h264_{0}_url".format(resolution)
     videos = [video[video_format] for video in json_string["videos"]]
     return videos
+
+
+def get_videos_titles_from_json(response):
+    json_string = json.loads(response)
+    videos_titles = [video["title"] for video in json_string["videos"]]
+    return videos_titles
+
+
+def get_video_title(session_num, i, videos_titles, filename):
+    try:
+        slug = slugify(videos_titles[session_num][i])
+        video_title = "_".join(filename.split(".")[:-1]) + "p_" + slug + "." + filename.split(".")[-1]
+    except IndexError:
+        video_title = filename
+    return video_title
 
 
 def write_video(video_url, full_path, filename, chunk_size=4096):
