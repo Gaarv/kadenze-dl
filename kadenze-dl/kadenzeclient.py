@@ -72,7 +72,12 @@ class KadenzeClient(object):
     def download_all_courses_videos(self):
         self.execute_login()
         enrolled_courses = [helpers.format_course(course) for course in self.list_courses()]
-        courses = [course for course in enrolled_courses if any(substring in course for substring in self.conf.courses)]
+        if self.conf.selected_only:
+            courses = [c for c in enrolled_courses if any(substring in c for substring in self.conf.courses)]
+        else:
+            courses = enrolled_courses
+        print("Selected courses for download: ")
+        print("\n".join(courses))
         for course in courses:
             print("Parsing course: {0}".format(course))
             self.download_course_videos(course)

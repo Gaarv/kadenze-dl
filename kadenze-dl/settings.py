@@ -11,6 +11,7 @@ class Settings(object):
         self.courses = self.config['download']['courses']
         self.video_format = self.config['download']['resolution']
         self.videos_titles = self.config['download']['videos_titles']
+        self.selected_only = "all" not in self.courses
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, 'instance'):

@@ -34,21 +34,34 @@ Replace placeholder fields in the configuration file located into kadenze-dl sub
         resolution: "720"                     # Video definition to download. Valid values are "720" or "360".
         path: "/home/user/videos/kadenze"     # The absolute path to download to
         videos_titles: true                   # name files with videos titles when possible
-        courses:                              # Courses to download, as they appear in the URL
+        courses:                              # Courses to download, as they appear in the URL. You can also use the keyword "all"
                 - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
                 - "creative-applications-of-deep-learning-with-tensorflow-iv"
 
 
 course name should be as it appears in the URL, examples :
 
-    https://www.kadenze.com/courses/physics-based-sound-synthesis-for-games-and-interactive-systems-iv
-    https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow-iv
+    https://www.kadenze.com/courses/physics-based-sound-synthesis-for-games-and-interactive-systems
+    https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow
 
 In configuration.yml :
     
     courses:
-       - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
-       - "creative-applications-of-deep-learning-with-tensorflow-iv"
+       - "physics-based-sound-synthesis-for-games-and-interactive-systems"
+       - "creative-applications-of-deep-learning-with-tensorflow"
+
+You can get links from the "Home" page of your account or from the "Dashboard" URL on the left panel inside a course.
+
+![Home](./images/kadenze1.png)
+
+![Dashboard](./images/kadenze2.png)
+
+You can also use :
+
+    courses:
+       - "all"
+
+To download all courses listed in your "Home" page.
 
 Run the application :
 
@@ -59,7 +72,7 @@ Run the application :
 
 Notes
 ---
-You must be enrolled in the course for which you want to download related videos.
+You must be enrolled in the course for which you want to download related videos as they need to appear in your account. 
 
 Please be fair to Kadenze and keep the videos for offline and personal use only, do not redistribute them
 

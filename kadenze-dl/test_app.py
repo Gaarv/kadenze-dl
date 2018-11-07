@@ -1,5 +1,6 @@
 import helpers
 
+
 def test_extract_filename():
     video_url = "https://cdnc-prod-assets-private.kadenze.com/uploads/lecture_medium/4894/file/Reb_L5_720.mp4?Expires" \
                 "=1482662443\u0026Signature=QklHU9hV7z2gwVp9yYfN21IITWxPZnPa7c3QOUByerXthMHnGy7-PfWvw~jrk5bE6sNtj2uee" \
@@ -15,5 +16,3 @@ def test_courses_from_json():
     course_json = '{"my_courses": [{"course_path": "/courses/creative-applications-of-deep-learning-with-tensorflow-i"}]}'
     courses = helpers.get_courses_from_json(course_json)
     assert courses == ["/courses/creative-applications-of-deep-learning-with-tensorflow-i"]
-
-
