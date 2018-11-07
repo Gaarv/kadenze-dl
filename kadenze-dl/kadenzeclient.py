@@ -10,7 +10,7 @@ class KadenzeClient(object):
         self.conf = Settings()
         self.base_url = "https://www.kadenze.com"
         self.session = Session()
-        self.browser = RoboBrowser(history=True, session=self.session, parser="lxml", allow_redirects=False)
+        self.browser = RoboBrowser(history=True, session=self.session, parser="lxml", allow_redirects=True)
 
     def execute_login(self):
         print("Signing in www.kadenze.com ...")
@@ -72,7 +72,7 @@ class KadenzeClient(object):
     def download_all_courses_videos(self):
         self.execute_login()
         enrolled_courses = [helpers.format_course(course) for course in self.list_courses()]
-        courses = set(self.conf.courses).intersection(enrolled_courses)
+        courses = [course for course in enrolled_courses if any(substring in course for substring in self.conf.courses)]
         for course in courses:
             print("Parsing course: {0}".format(course))
             self.download_course_videos(course)
