@@ -35,8 +35,8 @@ Replace placeholder fields in the configuration file located into kadenze-dl sub
         path: "/home/user/videos/kadenze"     # The absolute path to download to
         videos_titles: true                   # name files with videos titles when possible
         courses:                              # Courses to download, as they appear in the URL. You can also use the keyword "all"
-                - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
-                - "creative-applications-of-deep-learning-with-tensorflow-iv"
+                - "physics-based-sound-synthesis-for-games-and-interactive-systems"
+                - "creative-applications-of-deep-learning-with-tensorflow"
 
 
 course name should be as it appears in the URL, examples :
