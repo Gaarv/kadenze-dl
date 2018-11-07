@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='kadenze-dl',
@@ -8,13 +8,11 @@ setup(
     author='Gaarv',
     author_email='gaarv@users.noreply.github.com',
     url='https://github.com/gaarv/kadenze-dl',
-    download_url='https://github.com/gaarv/kadenze-dl/tarball/1.0',
     keywords=['kadenze', 'download', 'videos'],
-    classifiers=[],
     install_requires=[
-        "requests==2.10.0",
+        "requests==2.20.0",
         "robobrowser==0.5.3",
         "PyYAML==3.12",
-        "lxml==3.6.4"
+        "lxml==4.2.1"
     ],
 )
