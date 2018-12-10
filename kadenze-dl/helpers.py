@@ -24,27 +24,43 @@ def extract_session_prefix(filename):
 
 
 def get_courses_from_json(response):
-    json_string = json.loads(response)
-    courses = [course["course_path"] for course in json_string["my_courses"]]
+    try:
+        json_string = json.loads(response)
+        courses = [course["course_path"] for course in json_string["my_courses"]]
+    except ValueError:
+        print("Error getting the courses list. Check that you're enrolled on selected courses.")
+        courses = []
     return courses
 
 
 def get_sessions_from_json(response):
-    json_string = json.loads(response)
-    sessions = [session["course_session_path"] for session in json_string["lectures"]]
+    try:
+        json_string = json.loads(response)
+        sessions = [session["course_session_path"] for session in json_string["lectures"]]
+    except ValueError:
+        print("This course doesn't seem to have any video yet, skipping...")
+        sessions = []
     return sessions
 
 
 def get_videos_from_json(response, resolution):
-    json_string = json.loads(response)
-    video_format = "h264_{0}_url".format(resolution)
-    videos = [video[video_format] for video in json_string["videos"]]
+    try:
+        json_string = json.loads(response)
+        video_format = "h264_{0}_url".format(resolution)
+        videos = [video[video_format] for video in json_string["videos"]]
+    except ValueError:
+        print("Error getting videos list. Check if the course has indeed videos available.")
+        videos = []
     return videos
 
 
 def get_videos_titles_from_json(response):
-    json_string = json.loads(response)
-    videos_titles = [video["title"] for video in json_string["videos"]]
+    try:
+        json_string = json.loads(response)
+        videos_titles = [video["title"] for video in json_string["videos"]]
+    except ValueError:
+        print("Error getting videos titles. Files names will be used.")
+        videos_titles = []
     return videos_titles
 
 
