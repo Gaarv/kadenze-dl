@@ -14,6 +14,7 @@ setup(
         "robobrowser==0.5.3",
         "PyYAML==3.12",
         "lxml==4.2.1",
-        "python-slugify==1.2.5"
+        "python-slugify==1.2.5",
+        "Werkzeug==0.16.1"
     ],
 )
