@@ -13,13 +13,13 @@ I made it in order to have offline access to this great online course : (https:/
 Install
 ---
 
-Install requirements (Python 3.x only, tested up to Python 3.6.3):
+Install requirements (Python 3.7+ only):
 
 Download or clone repository, then into root directory
 
     pip install -r requirements.txt
 
-If you encounter issues installing lxml or pyyaml on Windows, you can try unofficial binaries from Christoph Gohlke at https://www.lfd.uci.edu/~gohlke/pythonlibs/
+If you encounter issues installing pyyaml on Windows, you can try unofficial binaries from Christoph Gohlke at https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 
 Usage 
@@ -61,11 +61,11 @@ You can also use :
     courses:
        - "all"
 
-To download all courses listed in your "Home" page.
+To download all courses listed in your "Home" page (including archived ones).
 
 Run the application :
 
-    cd kadenze-dl/
+    cd kadenze_dl/
 
 	python kadenze-dl.py
 
