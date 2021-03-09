@@ -1,6 +1,6 @@
 name: Python Package using Conda
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build-linux:
@@ -12,7 +12,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Test on Python 3.8
       uses: actions/setup-python@v2
-      on : [push, pull_request]
       with:
         python-version: 3.8
     - name: Add conda to system path
