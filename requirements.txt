@@ -1,4 +1,4 @@
-PyYAML==5.4.1
+PyYAML==3.12
 requests==2.25.1
 python-slugify==4.0.1
 playwright==1.9.1
