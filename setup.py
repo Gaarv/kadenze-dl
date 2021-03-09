@@ -9,5 +9,5 @@ setup(
     author_email="gaarv@users.noreply.github.com",
     url="https://github.com/gaarv/kadenze-dl",
     keywords=["kadenze", "download", "videos"],
-    install_requires=["PyYAML==3.12", "playwright==1.9.1", "python-slugify==4.0.1"],
+    install_requires=["PyYAML==5.4.1", "requests==2.25.1", "python-slugify==4.0.1", "playwright==1.9.1"],
 )

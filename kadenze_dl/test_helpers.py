@@ -12,9 +12,3 @@ def test_extract_filename():
     )
     filename = helpers.extract_filename(video_url)
     assert filename == "Reb_L5_720.mp4"
-
-
-def test_courses_from_json():
-    course_json = '{"courses": [{"course_path": "/courses/creative-applications-of-deep-learning-with-tensorflow-i"}]}'
-    courses = helpers.get_courses_from_json(course_json)
-    assert courses == ["/courses/creative-applications-of-deep-learning-with-tensorflow-i"]
