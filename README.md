@@ -5,21 +5,29 @@ kadenze-dl
 
 Small application to download Kadenze (https://www.kadenze.com) videos for courses you enrolled in.
 
-It scrapes the site content based on your profile information given in the configuration file to download H264 720p or 360p videos courses.
+Download videos for offline usage / archive based on your profile information given in the configuration file to download H264 720p or 360p videos courses.
 
-I made it in order to have offline access to this great online course : (https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info), check it out !
+
+Changelog
+---
+
+### 2021-03-10
+
+- emulating browser with playwright
+- archived courses can be downloaded
+- sessions/videos ordering and titles now based on JSON data (previous downloaded sessions and videos will have different names)
 
 
 Install
 ---
 
-Install requirements (Python 3.x only, tested up to Python 3.6.3):
+Install package (Python 3.7+ only):
 
 Download or clone repository, then into root directory
 
-    pip install -r requirements.txt
+    pip install -U .
 
-If you encounter issues installing lxml or pyyaml on Windows, you can try unofficial binaries from Christoph Gohlke at https://www.lfd.uci.edu/~gohlke/pythonlibs/
+If you encounter issues installing pyyaml on Windows, you can try unofficial binaries from Christoph Gohlke at https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 
 Usage 
@@ -35,20 +43,20 @@ Replace placeholder fields in the configuration file located into kadenze-dl sub
         path: "/home/user/videos/kadenze"     # The absolute path to download to
         videos_titles: true                   # name files with videos titles when possible
         courses:                              # Courses to download, as they appear in the URL. You can also use the keyword "all"
-                - "physics-based-sound-synthesis-for-games-and-interactive-systems"
-                - "creative-applications-of-deep-learning-with-tensorflow"
+                - "creative-applications-of-deep-learning-with-tensorflow-i"
+                - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
 
 
 course name should be as it appears in the URL, examples :
 
-    https://www.kadenze.com/courses/physics-based-sound-synthesis-for-games-and-interactive-systems
-    https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow
+    https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow-i
+    https://www.kadenze.com/courses/physics-based-sound-synthesis-for-games-and-interactive-systems-iv
 
 In configuration.yml :
     
     courses:
-       - "physics-based-sound-synthesis-for-games-and-interactive-systems"
-       - "creative-applications-of-deep-learning-with-tensorflow"
+       - "creative-applications-of-deep-learning-with-tensorflow-i"
+       - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
 
 You can get links from the "Home" page of your account or from the "Dashboard" URL on the left panel inside a course.
 
@@ -61,11 +69,11 @@ You can also use :
     courses:
        - "all"
 
-To download all courses listed in your "Home" page.
+To download all courses listed in your "Home" page (including archived ones).
 
 Run the application :
 
-    cd kadenze-dl/
+    cd kadenze_dl/
 
 	python kadenze-dl.py
 
