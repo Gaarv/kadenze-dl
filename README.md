@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Gaarv/kadenze-dl.svg?branch=master)](https://travis-ci.org/Gaarv/kadenze-dl)
+[![Build Status](https://github.com/gaarv/kadenze-dl/actions/workflows/test.yml/badge.svg)]
 
 kadenze-dl
 ===

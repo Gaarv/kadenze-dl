@@ -1,4 +1,4 @@
-name: Python Package using Conda
+name: build
 
 on: [push, pull_request]
 
@@ -21,6 +21,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install -U .
-        pip install -r requirements.txt
         pip install pytest
         pytest
