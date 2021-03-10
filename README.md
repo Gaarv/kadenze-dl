@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/gaarv/kadenze-dl/actions/workflows/test.yml/badge.svg)]
+![Build Status](https://github.com/gaarv/kadenze-dl/actions/workflows/test.yml/badge.svg)
 
 kadenze-dl
 ===
