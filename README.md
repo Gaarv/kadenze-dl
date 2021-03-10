@@ -10,6 +10,16 @@ It scrapes the site content based on your profile information given in the confi
 I made it in order to have offline access to this great online course : (https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info), check it out !
 
 
+Changelog
+---
+
+### 2021-03-10
+
+- emulating browser with playwright
+- archived courses can be downloaded
+- sessions/videos ordering and titles now based on JSON data (previous downloaded sessions and videos will have different names)
+
+
 Install
 ---
 
@@ -17,7 +27,7 @@ Install requirements (Python 3.7+ only):
 
 Download or clone repository, then into root directory
 
-    pip install -r requirements.txt
+    pip install -U .
 
 If you encounter issues installing pyyaml on Windows, you can try unofficial binaries from Christoph Gohlke at https://www.lfd.uci.edu/~gohlke/pythonlibs/
 

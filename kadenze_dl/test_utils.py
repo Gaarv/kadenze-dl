@@ -1,4 +1,4 @@
-import kadenze_dl.helpers as helpers
+import kadenze_dl.utils as utils
 
 
 def test_extract_filename():
@@ -10,5 +10,5 @@ def test_extract_filename():
         "~HVRUGjXU~Z~NsB3LtFctaEvoNWd3CMVH~zwHmTKEF1rmDDb2To~ABS6t8sXREUdZ36pQ__\u0026Key-Pair-Id=APKAIPB43QU"
         "CA2NXZVSQmp4"
     )
-    filename = helpers.extract_filename(video_url)
+    filename = utils.extract_filename(video_url)
     assert filename == "Reb_L5_720.mp4"

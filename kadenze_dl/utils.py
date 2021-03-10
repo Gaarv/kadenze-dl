@@ -3,32 +3,18 @@ import logging
 import re
 import sys
 from pathlib import Path
-from typing import List, NamedTuple
+from typing import List
 
 import requests
 from slugify import slugify
 
-from kadenze_dl.progress import progress
+from kadenze_dl.models import Session, Video
 
-logger = logging.getLogger("helpers")
+logger = logging.getLogger("utils")
 logger.addHandler(logging.StreamHandler(sys.stdout))
 logger.setLevel(logging.INFO)
 
 filename_pattern = re.compile("file/(.*\.mp4)\?")
-
-
-class Session(NamedTuple):
-    course: str
-    index: int
-    name: str
-    path: str
-
-
-class Video(NamedTuple):
-    session: Session
-    index: int
-    title: str
-    url: str
 
 
 def format_course(course: str) -> str:
@@ -112,3 +98,14 @@ def check_if_file_exists(full_path: str, filename: str) -> int:
         return f.stat().st_size
     else:
         return 0
+
+
+def progress(count, total, status=""):
+    bar_len = 60
+    filled_len = int(round(bar_len * count / float(total)))
+
+    percents = round(100.0 * count / float(total), 1)
+    bar = "=" * filled_len + "-" * (bar_len - filled_len)
+
+    s = "[%s] %s%s filename: %s\r" % (bar, percents, "%", status)
+    return s
