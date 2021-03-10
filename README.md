@@ -23,7 +23,7 @@ Changelog
 Install
 ---
 
-Install requirements (Python 3.7+ only):
+Install package (Python 3.7+ only):
 
 Download or clone repository, then into root directory
 
