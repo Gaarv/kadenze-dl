@@ -25,6 +25,7 @@ def execute_login(browser: Browser) -> Page:
     logger.info("Signing in www.kadenze.com ...")
     page: Page = browser.new_page()
     page.goto(BASE_URL)
+    page.mouse.click(0, 0)
     page.click("#email-login-btn")
     page.fill("input#login_user_email", conf.login)
     page.fill("input#login_user_password", conf.password)
