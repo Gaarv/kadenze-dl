@@ -8,16 +8,6 @@ Small application to download Kadenze (https://www.kadenze.com) videos for cours
 Download videos for offline usage / archive based on your profile information given in the configuration file to download H264 720p or 360p videos courses.
 
 
-Changelog
----
-
-### 2021-03-10
-
-- emulating browser with playwright
-- archived courses can be downloaded
-- sessions/videos ordering and titles now based on JSON data (previous downloaded sessions and videos will have different names)
-
-
 Install
 ---
 
@@ -25,7 +15,7 @@ Install package (Python 3.7+ only):
 
 Download or clone repository, then into root directory
 
-    pip install -U .
+    pip3 install -U .
 
 If you encounter issues installing pyyaml on Windows, you can try unofficial binaries from Christoph Gohlke at https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
@@ -75,7 +65,7 @@ Run the application :
 
     cd kadenze_dl/
 
-	python kadenze-dl.py
+	python3 kadenze-dl.py
 
 
 Notes
