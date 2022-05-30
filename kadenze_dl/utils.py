@@ -14,7 +14,7 @@ logger = logging.getLogger("utils")
 logger.addHandler(logging.StreamHandler(sys.stdout))
 logger.setLevel(logging.INFO)
 
-filename_pattern = re.compile("file/(.*\.mp4)\?")
+filename_pattern = re.compile("file/(.*\\.mp4)\\?")
 
 
 def format_course(course: str) -> str:
@@ -23,10 +23,13 @@ def format_course(course: str) -> str:
 
 
 def extract_filename(video_url: str) -> Optional[str]:
+    filename = None
     try:
-        filename = re.search(filename_pattern, video_url).group(1)
-    except Exception:
-        filename = None
+        match = re.search(filename_pattern, video_url)
+        if match:
+            filename = match.group(1)
+    except Exception as e:
+        logger.exception(f"Error while extracting filename: {e}")
     return filename
 
 
@@ -82,7 +85,7 @@ def get_video_title(video_title: str, filename: str) -> str:
     return video_title
 
 
-def write_video(video_url: str, full_path: str, filename: str, chunk_size: int = 4096):
+def write_video(video_url: str, full_path: str, filename: str, chunk_size: int = 4096) -> None:
     try:
         size = int(requests.head(video_url).headers["Content-Length"])
         size_on_disk = check_if_file_exists(full_path, filename)
@@ -97,7 +100,7 @@ def write_video(video_url: str, full_path: str, filename: str, chunk_size: int =
                     current_size += chunk_size
                     s = progress(current_size, size, filename)
                     print(s, end="", flush=True)
-                print(s)
+                print(s)  # type: ignore
         else:
             logger.info(f"{filename} already downloaded, skipping...")
     except Exception as e:
@@ -112,7 +115,7 @@ def check_if_file_exists(full_path: str, filename: str) -> int:
         return 0
 
 
-def progress(count, total, status=""):
+def progress(count, total, status="") -> str:
     bar_len = 60
     filled_len = int(round(bar_len * count / float(total)))
     percents = round(100.0 * count / float(total), 1)

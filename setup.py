@@ -1,13 +1,20 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="kadenze-dl",
-    packages=["kadenze_dl"],
-    version="1.0",
+    version="1.1.0",
     description="Small application to download Kadenze (https://www.kadenze.com) videos for courses you enrolled in",
     author="Gaarv",
     author_email="gaarv@users.noreply.github.com",
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3 :: Only",
+    ],
     url="https://github.com/gaarv/kadenze-dl",
     keywords=["kadenze", "download", "videos"],
-    install_requires=["PyYAML==5.4.1", "requests==2.25.1", "python-slugify==4.0.1", "playwright==1.9.1"],
+    packages=find_packages(),
+    python_requires=">=3.8, <4",
 )
