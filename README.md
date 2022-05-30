@@ -11,6 +11,13 @@ Download videos for offline usage / archive based on your profile information gi
 Changelog
 ---
 
+### 2022-05-31
+
+- upgraded playwright to 1.22.0
+- support added for courses with more than 10 sessions
+- skip premium / locked content if applicable
+
+
 ### 2021-03-10
 
 - emulating browser with playwright
@@ -21,7 +28,7 @@ Changelog
 Install
 ---
 
-Install package (Python 3.7+ only):
+Install package (Python 3.8+ only):
 
 Download or clone repository, then into root directory
 
