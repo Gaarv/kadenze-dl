@@ -11,7 +11,7 @@ Download videos for offline usage / archive based on your profile information gi
 Install
 ---
 
-Install package (Python 3.7+ only):
+Install package (Python 3.8+ only):
 
 Download or clone repository, then into root directory
 
