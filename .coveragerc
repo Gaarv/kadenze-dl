@@ -1,0 +1,6 @@
+[run]
+source = 
+    kadenze_dl
+omit =
+    */tests/*
+    **/__init__.py

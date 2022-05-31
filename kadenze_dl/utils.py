@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import List, Optional
 
 import requests
+import typer
 from slugify import slugify
 
 from kadenze_dl.models import Session, Video
@@ -85,14 +86,13 @@ def get_video_title(video_title: str, filename: str) -> str:
     return video_title
 
 
-def write_video(video_url: str, full_path: str, filename: str, chunk_size: int = 4096) -> None:
+def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int = 4096) -> None:
     try:
         size = int(requests.head(video_url).headers["Content-Length"])
         size_on_disk = check_if_file_exists(full_path, filename)
         if size_on_disk < size:
-            fd = Path(full_path)
-            fd.mkdir(parents=True, exist_ok=True)
-            with open(fd / filename, "wb") as f:
+            full_path.mkdir(parents=True, exist_ok=True)
+            with open(full_path / filename, "wb") as f:
                 r = requests.get(video_url, stream=True)
                 current_size = 0
                 for chunk in r.iter_content(chunk_size=chunk_size):
@@ -107,8 +107,8 @@ def write_video(video_url: str, full_path: str, filename: str, chunk_size: int =
         logger.exception(f"Error while writing video to {full_path}/{filename}: {e}")
 
 
-def check_if_file_exists(full_path: str, filename: str) -> int:
-    f = Path(full_path + "/" + filename)
+def check_if_file_exists(full_path: Path, filename: str) -> int:
+    f = full_path / filename
     if f.exists():
         return f.stat().st_size
     else:

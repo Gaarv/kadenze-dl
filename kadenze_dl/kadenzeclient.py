@@ -5,6 +5,7 @@ from pathlib import Path
 from random import randint
 from typing import List
 
+import typer
 from playwright._impl._browser import Browser
 from playwright._impl._page import Page
 from playwright.sync_api import sync_playwright
@@ -13,11 +14,11 @@ import kadenze_dl.utils as utils
 from kadenze_dl.models import Session, Video
 from kadenze_dl.settings import Settings
 
-conf = Settings()
-
 logger = logging.getLogger("client")
 logger.addHandler(logging.StreamHandler(sys.stdout))
 logger.setLevel(logging.INFO)
+
+conf: Settings = None  # type: ignore
 
 BASE_URL = "https://www.kadenze.com"
 COOKIES_XPATH = '//*[@id="iubenda-cs-banner"]/div/div/a'
@@ -97,7 +98,7 @@ def extract_session_videos(page: Page, session: Session) -> List[Video]:
         random_wait()
         div_videos = page.query_selector('//*[@id="video_json"]')
         json_videos = div_videos.get_attribute("value")  # type: ignore
-        videos = utils.get_videos_from_json(json_videos, conf.video_format, session)
+        videos = utils.get_videos_from_json(json_videos, conf.resolution.value, session)
     except Exception:
         logger.info(f"Error while extracting videos from session={session.name}. Skipping...")
     return videos
@@ -105,12 +106,12 @@ def extract_session_videos(page: Page, session: Session) -> List[Video]:
 
 def download_video(video: Video) -> None:
     filename = utils.extract_filename(video.url)
-    if filename:
+    download_path = conf.download_path
+    if filename and download_path:
         session_prefix = str(video.session.index) + "-" + video.session.name
-        full_path = conf.path + "/" + video.session.course + "/" + session_prefix
-        Path(full_path).mkdir(parents=True, exist_ok=True)
-        if conf.videos_titles:
-            filename = utils.get_video_title(video.title, filename)
+        full_path = download_path / video.session.course / session_prefix
+        full_path.mkdir(parents=True, exist_ok=True)
+        filename = utils.get_video_title(video.title, filename)
         utils.write_video(video.url, full_path, filename)
     else:
         logger.info(f"Could not extract filename: video={video.title}, session={video.session.name}, course={video.session.course}. Skipping...")
@@ -130,13 +131,16 @@ def download_course_videos(page: Page, course: str) -> None:
             logger.exception(f"Error while downloading video {video.title} from course {course}: {e}")
 
 
-def download_all_courses_videos() -> None:
+def download_all_courses_videos(settings: Settings) -> None:
+    """main function to download all courses videos"""
+
+    conf = settings
     p = sync_playwright().start()
     browser = p.firefox.launch(headless=True)
     try:
         page = execute_login(browser)  # type: ignore
         enrolled_courses = [utils.format_course(course) for course in list_courses(page)]
-        if conf.selected_only and enrolled_courses:
+        if enrolled_courses:
             courses = [c for c in enrolled_courses if any(substring in c for substring in conf.courses)]
         else:
             courses = enrolled_courses
