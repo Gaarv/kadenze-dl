@@ -1,7 +1,5 @@
 import json
-import logging
 import re
-import sys
 from pathlib import Path
 from typing import List, Optional
 
@@ -11,11 +9,7 @@ from slugify import slugify
 
 from kadenze_dl.models import Session, Video
 
-logger = logging.getLogger("utils")
-logger.addHandler(logging.StreamHandler(sys.stdout))
-logger.setLevel(logging.INFO)
-
-filename_pattern = re.compile("file/(.*\\.mp4)\\?")
+FILENAME_PATTERN = re.compile("file/(.*\\.mp4)\\?")
 
 
 def format_course(course: str) -> str:
@@ -26,11 +20,11 @@ def format_course(course: str) -> str:
 def extract_filename(video_url: str) -> Optional[str]:
     filename = None
     try:
-        match = re.search(filename_pattern, video_url)
+        match = re.search(FILENAME_PATTERN, video_url)
         if match:
             filename = match.group(1)
     except Exception as e:
-        logger.exception(f"Error while extracting filename: {e}")
+        typer.secho(f"Error while extracting filename: {e}", fg=typer.colors.RED)
     return filename
 
 
@@ -39,7 +33,7 @@ def get_courses_from_json(response: str) -> List[str]:
         json_string = json.loads(response)
         courses = [course["course_path"] for course in json_string["courses"]]
     except ValueError:
-        logger.info("Error getting the courses list. Check that you're enrolled on selected courses.")
+        typer.secho("Error getting the courses list. Check that you're enrolled on selected courses.", fg=typer.colors.RED)
         courses = []
     return courses
 
@@ -54,9 +48,9 @@ def get_sessions_from_json(response: str, course: str) -> List[Session]:
                 session = Session(course, lecture["order"], slugify(lecture["title"]), lecture["course_session_path"])
                 sessions.append(session)
             except Exception as e:
-                logger.exception(f"Error while extracting session metadata from course {course} at index {i}: {e}")
+                typer.secho(f"Error while extracting session metadata from course {course} at index {i}: {e}", fg=typer.colors.RED)
     except Exception as e:
-        logger.exception(f"Error while extracting session metadata from course {course}: {e}")
+        typer.secho(f"Error while extracting session metadata from course {course}: {e}", fg=typer.colors.RED)
     return sessions
 
 
@@ -71,9 +65,9 @@ def get_videos_from_json(response: str, resolution: int, session: Session) -> Li
                 video = Video(session, v["order"], v["title"], v[video_format])
                 videos.append(video)
             except Exception as e:
-                logger.exception(f"Error while extracting video metadata from session {session.name} at index {i}: {e}")
+                typer.secho(f"Error while extracting video metadata from session {session.name} at index {i}: {e}", fg=typer.colors.RED)
     except Exception as e:
-        logger.exception(f"Error getting videos: {e}")
+        typer.secho(f"Error getting videos: {e}", fg=typer.colors.RED)
     return videos
 
 
@@ -102,9 +96,9 @@ def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int 
                     print(s, end="", flush=True)
                 print(s)  # type: ignore
         else:
-            logger.info(f"{filename} already downloaded, skipping...")
+            typer.echo(f"{filename} already downloaded, skipping...")
     except Exception as e:
-        logger.exception(f"Error while writing video to {full_path}/{filename}: {e}")
+        typer.secho(f"Error while writing video to {full_path}/{filename}: {e}", fg=typer.colors.RED)
 
 
 def check_if_file_exists(full_path: Path, filename: str) -> int:
@@ -120,5 +114,5 @@ def progress(count, total, status="") -> str:
     filled_len = int(round(bar_len * count / float(total)))
     percents = round(100.0 * count / float(total), 1)
     bar = "=" * filled_len + "-" * (bar_len - filled_len)
-    s = "[%s] %s%s filename: %s\r" % (bar, percents, "%", status)
+    s = f"[{bar}] {percents}% filename: {status}\r"
     return s

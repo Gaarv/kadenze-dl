@@ -4,7 +4,7 @@ from typing import List, Optional
 
 import typer
 
-import kadenze_dl.kadenzeclient as kadenze_client
+from kadenze_dl.kadenzeclient import KadenzeClient
 from kadenze_dl.settings import build_settings
 
 app = typer.Typer()
@@ -23,7 +23,8 @@ def main(
         typer.secho(f"Loading configuration from {config_file.as_posix()}.", fg=typer.colors.GREEN)
         settings = build_settings(courses, resolution, config_file, login, password, download_path)
         subprocess.run(["playwright", "install"])
-        kadenze_client.download_all_courses_videos(settings)
+        kadenze_client = KadenzeClient(settings)
+        kadenze_client.download_all_courses_videos()
     except Exception as e:
         typer.secho(e, fg=typer.colors.RED)
 
