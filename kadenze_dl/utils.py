@@ -86,19 +86,19 @@ def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int 
         size_on_disk = check_if_file_exists(full_path, filename)
         if size_on_disk < size:
             full_path.mkdir(parents=True, exist_ok=True)
+            r = requests.get(video_url, stream=True)
+            current_size = 0
             with open(full_path / filename, "wb") as f:
-                r = requests.get(video_url, stream=True)
-                current_size = 0
                 for chunk in r.iter_content(chunk_size=chunk_size):
                     f.write(chunk)
                     current_size += chunk_size
                     s = progress(current_size, size, filename)
                     print(s, end="", flush=True)
-                print(s)  # type: ignore
+                typer.echo(s)  # type: ignore
         else:
             typer.echo(f"{filename} already downloaded, skipping...")
     except Exception as e:
-        typer.secho(f"Error while writing video to {full_path}/{filename}: {e}", fg=typer.colors.RED)
+        typer.secho(f"Error while writing video to {full_path.joinpath(filename).as_posix()}: {e}", fg=typer.colors.RED)
 
 
 def check_if_file_exists(full_path: Path, filename: str) -> int:

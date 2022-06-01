@@ -21,7 +21,7 @@ def download_all_courses_videos_mock(self) -> None:
     p.stop()
 
 
-def test_kadenze_client():
+def test_playwright_install():
     patch("kadenze_dl.kadenzeclient.KadenzeClient.download_all_courses_videos", download_all_courses_videos_mock).start()
     settings = build_settings(courses=["all"], resolution="720", config_file=TEST_CONFIG_FILE)
     kadendze_client = KadenzeClient(settings)

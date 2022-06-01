@@ -9,3 +9,4 @@ __pycache__
 /MANIFEST
 /dist/
 venv/
+test-configuration.yml

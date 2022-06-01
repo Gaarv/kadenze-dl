@@ -19,6 +19,7 @@ class Settings:
     download_path: Path
     courses: List[str]
     resolution: Resolution
+    proxy: Optional[str] = None
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, "instance"):
@@ -33,6 +34,7 @@ def build_settings(
     login: Optional[str] = None,
     password: Optional[str] = None,
     download_path: Optional[Path] = None,
+    proxy: Optional[str] = None,
 ) -> Settings:
     try:
         if config_file and config_file.exists():
@@ -42,9 +44,10 @@ def build_settings(
                 _login: str = d["kadenze"]["login"]
                 _password: str = d["kadenze"]["password"]
                 _download_path = Path(d["download"]["download_path"])
-                courses = d["download"]["courses"]
-                resolution = d["download"]["resolution"]
-                return Settings(_login, _password, _download_path, courses, Resolution[f"_{resolution}"])
+                _courses = d["download"]["courses"]
+                _resolution = d["download"]["resolution"]
+                _proxy = str(d["download"]["proxy"]) or None
+                return Settings(_login, _password, _download_path, _courses, Resolution[f"_{_resolution}"], _proxy)
         else:
             # use provided arguments from CLI
             if all([login, password, download_path]):
@@ -54,6 +57,7 @@ def build_settings(
                 config["download_path"] = download_path
                 config["resolution"] = Resolution[f"_{resolution}"]
                 config["courses"] = courses
+                config["proxy"] = proxy
                 return Settings(**config)
 
             else:
