@@ -1,3 +1,4 @@
+import subprocess
 import time
 from pathlib import Path
 
@@ -14,6 +15,7 @@ TEST_CONFIG_FILE = Path(".").absolute() / "kadenze_dl" / "configuration.yml"
 
 
 def download_all_courses_videos_mock(self) -> None:
+    subprocess.run(["playwright", "install"])
     p = sync_playwright().start()
     browser = p.firefox.launch(headless=True)
     time.sleep(1)
