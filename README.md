@@ -36,7 +36,7 @@ A YAML configuration file can also be used, template is available as `configurat
     python3 kadenze-dl.py --config-file configuration.yml
 
 
-Replace placeholder fields in the configuration file located into kadenze-dl subdirectory, in YAML format, example:
+Replace placeholder fields in the configuration file in YAML format, example:
 
     kadenze:
         login: "myemail@gmail.com"
@@ -50,7 +50,7 @@ Replace placeholder fields in the configuration file located into kadenze-dl sub
                 - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
 
 
-Courses names should be as they appears in the URL, examples:
+Courses names must be reported as they appears in the URL, examples:
 
     https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow-i
     https://www.kadenze.com/courses/physics-based-sound-synthesis-for-games-and-interactive-systems-iv
