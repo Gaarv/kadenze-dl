@@ -141,7 +141,9 @@ class KadenzeClient:
         try:
             page = self.execute_login(browser)  # type: ignore
             enrolled_courses = [utils.format_course(course) for course in self.list_courses(page)]
-            if enrolled_courses:
+            if "all" in self.conf.courses:
+                courses = enrolled_courses
+            elif enrolled_courses:
                 courses = [c for c in enrolled_courses if any(substring in c for substring in self.conf.courses)]
             else:
                 courses = enrolled_courses

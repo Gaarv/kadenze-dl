@@ -2,10 +2,6 @@ from pathlib import Path
 
 import pytest
 from kadenze_dl.settings import build_settings
-from typer.testing import CliRunner
-
-runner = CliRunner()
-
 
 TEST_CONFIG_FILE = Path(".").absolute() / "kadenze_dl" / "configuration.yml"
 

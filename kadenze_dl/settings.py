@@ -56,7 +56,7 @@ def build_settings(
                 config["password"] = password
                 config["download_path"] = download_path
                 config["resolution"] = Resolution[f"_{resolution}"]
-                config["courses"] = courses
+                config["courses"] = courses if courses else ["all"]
                 config["proxy"] = proxy
                 return Settings(**config)
 

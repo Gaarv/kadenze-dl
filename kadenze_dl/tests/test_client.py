@@ -1,15 +1,11 @@
 import subprocess
 import time
 from pathlib import Path
+from unittest.mock import patch
 
 from kadenze_dl.kadenzeclient import KadenzeClient
 from kadenze_dl.settings import build_settings
 from playwright.sync_api import sync_playwright
-from typer.testing import CliRunner
-
-runner = CliRunner()
-
-from unittest.mock import patch
 
 TEST_CONFIG_FILE = Path(".").absolute() / "kadenze_dl" / "configuration.yml"
 
