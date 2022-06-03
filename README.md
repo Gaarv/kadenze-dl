@@ -56,24 +56,26 @@ Courses names must be reported as they appears in the URL, examples:
     https://www.kadenze.com/courses/physics-based-sound-synthesis-for-games-and-interactive-systems-iv
 
 
-In configuration.yml :
+In configuration.yml:
     
     courses:
        - "creative-applications-of-deep-learning-with-tensorflow-i"
        - "physics-based-sound-synthesis-for-games-and-interactive-systems-iv"
 
-You can get links from the "Home" page of your account or from the "Dashboard" URL on the left panel inside a course.
 
-![Home](./images/kadenze1.png)
-
-![Dashboard](./images/kadenze2.png)
-
-You can also use :
+You can also use:
 
     courses:
        - "all"
 
 To download all courses listed in your "Home" page (including archived ones).
+
+For manual selected courses, you can get links from the "Home" page of your account or from the "Dashboard" URL on the left panel inside a course.
+
+![Home](./images/kadenze1.png)
+
+![Dashboard](./images/kadenze2.png)
+
 
 ## Help
 
