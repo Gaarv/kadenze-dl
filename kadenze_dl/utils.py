@@ -80,7 +80,7 @@ def get_video_title(video_title: str, filename: str) -> str:
     return video_title
 
 
-def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int = 4096) -> None:
+def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int = 4096) -> None:  # pragma: no cover
     try:
         size = int(requests.head(video_url).headers["Content-Length"])
         size_on_disk = check_if_file_exists(full_path, filename)
@@ -101,7 +101,7 @@ def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int 
         typer.secho(f"Error while writing video to {full_path.joinpath(filename).as_posix()}: {e}", fg=typer.colors.RED)
 
 
-def check_if_file_exists(full_path: Path, filename: str) -> int:
+def check_if_file_exists(full_path: Path, filename: str) -> int:  # pragma: no cover
     f = full_path / filename
     if f.exists():
         return f.stat().st_size
@@ -109,7 +109,7 @@ def check_if_file_exists(full_path: Path, filename: str) -> int:
         return 0
 
 
-def progress(count, total, status="") -> str:
+def progress(count, total, status="") -> str:  # pragma: no cover
     bar_len = 60
     filled_len = int(round(bar_len * count / float(total)))
     percents = round(100.0 * count / float(total), 1)
