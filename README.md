@@ -43,7 +43,7 @@ Replace placeholder fields in the configuration file in YAML format, example:
         password: "mypassword"
     download:
         proxy: ""                                      # Proxy URL, ie. "http://127.0.0.1:3128". Empty string "" if none.
-        resolution: "720"                              # Video definition to download. Valid values are "720" or "360".
+        resolution: "720"                              # Video resolution to download. Valid values are "720" or "360".
         download_path: "/home/user/videos/kadenze"     # The absolute path to download to
         courses:                                       # Courses to download, as they appear in the URL. You can also use the keyword "all"
                 - "creative-applications-of-deep-learning-with-tensorflow-i"
