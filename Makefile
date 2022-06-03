@@ -12,4 +12,6 @@ test:
 	python -m pytest --cov -v -s
 
 standalone:
-	pyinstaller --onefile kadenze-dl.py
+	PLAYWRIGHT_BROWSERS_PATH=0
+	playwright install firefox
+	pyinstaller --onefile kadenze_dl/kadenze-dl.py
