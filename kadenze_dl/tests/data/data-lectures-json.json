@@ -1,0 +1,211 @@
+{
+    "timezone": "2022-06-03T11:44:40.778+02:00",
+    "first_page": true,
+    "last_page": true,
+    "total_lectures": 5,
+    "adaptive": true,
+    "sort_lectures_path": "/courses/real-time-audio-signal-processing-in-faust/sessions/sort",
+    "new_lecture_path": "/courses/real-time-audio-signal-processing-in-faust/sessions/new",
+    "course_lectures_path": "/courses/real-time-audio-signal-processing-in-faust/sessions",
+    "lectures_ids": [
+      1005,
+      1006,
+      1007,
+      1008,
+      1009
+    ],
+    "course_id": 169,
+    "lectures": [
+      {
+        "id": 1005,
+        "course_id": 169,
+        "order": 1,
+        "created_at": "2017-11-11T02:51:15.456+01:00",
+        "start_date": "2019-01-16T00:00:00.000+01:00",
+        "end_date": null,
+        "title": "Faust Overview and Language Basics",
+        "description": "This session gives an overview of the Faust ecosystem and of its various features. Simple high-level programming examples are provided towards making audio plug-ins, mobile and web apps, and externals for PureData and Max/MSP. It also begins a detailed survey of the Faust language that will be continued in Session 2.",
+        "show_meets_from": false,
+        "visible_on": "2019-01-16T00:00:00.000+01:00",
+        "lecture_media_count": 10,
+        "media_meta_data": "10 Video Files: 00:29:40",
+        "button_title": "Go to Session",
+        "button_class": "",
+        "modal": false,
+        "course_session_path": "/courses/real-time-audio-signal-processing-in-faust/sessions/faust-overview-and-language-basics",
+        "title_with_type_and_number": "Session 1: Faust Overview and Language Basics",
+        "thumb_url": "https://prod-uploads-pub.useast1.kadenze.com/prod/usr/uploads/course/169/lecture/1005/logo/cinema_Faust_S1.png?Expires=1654854280&Signature=Q9Fi9e7JR0CNCICaeFrTbcz-9lxIQ1hxhGeYhpmd9QCt3YIeiNw6sisIhtO6o0m9BmfzvVS8xtVScP0ZrAqi28-v6B4xKaXOtw5sh272N0J5a-Dr3AOz0G3dFTwTa3i9KgB2B9h0f9Eaxtyam1KUDnCicUDE0PTcurmx2SX10d9h09BXf67bd076IcXzvqnbf2rECInolTVHUkP2SpjvXLabU~UjeTqwSynAlfKu3FQVtyhQT1OCskfvcYiUSalH1nTPz1I0XhBPqw1rr1Ujo4~0ITtuvZg7QEai-~po8HyUCQjYnOTQOxv-YuqP~f5Pw5S6HegGYAvVUfrX1CzE7A__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "adaptive": true,
+        "coursework": [
+          {
+            "name": "Intro Survey (Stanford)",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/survey-1-intro-survey-stanford",
+            "link_to_cw": true
+          },
+          {
+            "name": "Breath-Controlled Polyphonic Synthesizer",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-2-breath-controlled-polyphonic-synthesizer",
+            "link_to_cw": true
+          },
+          {
+            "name": "Polyphonic Synthesizer",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-1-polyphonic-synthesizer",
+            "link_to_cw": true
+          }
+        ]
+      },
+      {
+        "id": 1006,
+        "course_id": 169,
+        "order": 2,
+        "created_at": "2017-11-11T02:51:37.366+01:00",
+        "start_date": "2019-01-16T00:00:00.000+01:00",
+        "end_date": null,
+        "title": "Programming with Faust",
+        "description": "This lecture extends the review of the Faust language. Its goal is to present a detailed description of Faust’s semantics through a series of examples. In particular students will learn how to code any visual block diagram in Faust, and express the corresponding mathematical semantics. By the end of this lecture, students should be aware of all the syntactical element of the language and have a basic understanding of them. They will have implemented various simple sound synthesizers and effects…",
+        "show_meets_from": false,
+        "visible_on": "2019-01-16T00:00:00.000+01:00",
+        "lecture_media_count": 9,
+        "media_meta_data": "9 Video Files: 01:29:40",
+        "button_title": "Go to Session",
+        "button_class": "",
+        "modal": false,
+        "course_session_path": "/courses/real-time-audio-signal-processing-in-faust/sessions/programming-with-faust",
+        "title_with_type_and_number": "Session 2: Programming with Faust",
+        "thumb_url": "https://prod-uploads-pub.useast1.kadenze.com/prod/usr/uploads/course/169/lecture/1006/logo/cinema_Faust_S2.png?Expires=1654854280&Signature=C9YlRm2-Id-WduY5S9Gro6DlRs5YxFv5RuO-UkjVzARaANvYTdsxCZiQp1tTnfH3k-cR3HSY~Jk1SADRW8cc9dCfHlexwW7BlZyooHPYKX7TZwq6hGdUvXfg7-6CvwedvD~PGDI~AxwglYlKpev6CyhEQ7eSynKqm1lq8dJqFNZkblyYREGANe96g943XDzVPTwDxIkd7UeZKqEZPibrWthYVzA3efIyTs31lCL5FBcflsZ4O8WIy16GrWDKEiRIcLoA8b6~mPE6YRcd-M6HBEzg2q69xgUugPt6x2v1Qj1HqIS1~g5KyqWLGuAii2WvZp6gk9rtB4w~ZeGvOSEaeQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "adaptive": true,
+        "coursework": [
+          {
+            "name": "Working with Delays",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-4-working-with-delays",
+            "link_to_cw": true
+          },
+          {
+            "name": "Quiz: Expressions, Semantics, and Notation",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/form-submission-3-quiz-expressions-semantics-and-notation",
+            "link_to_cw": true
+          },
+          {
+            "name": "Triangular Waveform Generation",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-6-triangular-waveform-generation",
+            "link_to_cw": true
+          },
+          {
+            "name": "Create a User Interface",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-5-create-a-user-interface",
+            "link_to_cw": true
+          }
+        ]
+      },
+      {
+        "id": 1007,
+        "course_id": 169,
+        "order": 3,
+        "created_at": "2017-11-11T02:51:56.609+01:00",
+        "start_date": "2019-01-16T00:00:00.000+01:00",
+        "end_date": null,
+        "title": "Sound Synthesis and Processing I: Oscillators, AM, FM, and Subtractive Synthesis",
+        "description": "The goal of this session is to implement various sound synthesis techniques (e.g., AM, FM, subtractive, sampling, basic physical modeling, granular) from scratch in Faust. A strong emphasis will be given to making “finished products,” (advanced user interfaces, polyphony and MIDI compatibility, etc.) ready to be converted to some of the platforms presented later.",
+        "show_meets_from": false,
+        "visible_on": "2019-01-16T00:00:00.000+01:00",
+        "lecture_media_count": 4,
+        "media_meta_data": "4 Video Files: 00:24:38",
+        "button_title": "Go to Session",
+        "button_class": "",
+        "modal": false,
+        "course_session_path": "/courses/real-time-audio-signal-processing-in-faust/sessions/sound-synthesis-and-processing-i-oscillators-am-fm-and-subtractive-synthesis",
+        "title_with_type_and_number": "Session 3: Sound Synthesis and Processing I: Oscillators, AM, FM, and Subtractive Synthesis",
+        "thumb_url": "https://prod-uploads-pub.useast1.kadenze.com/prod/usr/uploads/course/169/lecture/1007/logo/cinema_Faust_S3.png?Expires=1654854280&Signature=K-KG56kpOPFGmhNOMuUDTBQs4c8SBh8AK5ZnNvDiONrgf9j9kbMHJI39nubWOskYWBHuzw3PmKP-kqwMmC0sVt8CHyqf~Eb001i8G6d09GBtQUlfg7o1OFbMh26gZoLauCUziZ7SWTVTsCqusTk6nWEWSPuO-gLMrrHOEdGPmD2L69XgzFoDHYpLWHJ5vKtUe3rCRh25GpYXMMGqIYVZFRPaYOMjzCk8ozmU6wfViVrJGRbtZoXzx2fMb0EFGfrhL7VtiZ5WtPUWRJR9E9L9KQ9m-0y7KX5qgtAHYhMSsF8xQMkFY5J4rzeyE0kDzvX7laTfF~EKsUmyfog388l~mw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "adaptive": true,
+        "coursework": [
+          {
+            "name": "Towards the DX7",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-9-towards-the-dx7",
+            "link_to_cw": true
+          },
+          {
+            "name": "Fun With Subtractive Synthesis: Trying Other Types of Filters",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-7-fun-with-subtractive-synthesis-trying-other-types-of-filters",
+            "link_to_cw": true
+          },
+          {
+            "name": "Fun With Subtractive Synthesis: Using Multiple Filters",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-8-fun-with-subtractive-synthesis-using-multiple-filters",
+            "link_to_cw": true
+          }
+        ]
+      },
+      {
+        "id": 1008,
+        "course_id": 169,
+        "order": 4,
+        "created_at": "2017-11-11T02:52:21.993+01:00",
+        "start_date": "2019-01-16T00:00:00.000+01:00",
+        "end_date": null,
+        "title": "Sound Synthesis and Processing II: Filters, Echo, Basic Physical Modeling, Sampling and Granular Synthesis",
+        "description": "In this session, various sound processing techniques/audio effects (basic filters, ring modulation, distortion, compressor, Schroeder reverb, flanger, phaser, pitch shifter, etc.) are implemented from scratch in Faust. As for Session 4, a strong emphasis will be given to implementing “finished products” that are “ready to be shipped”.",
+        "show_meets_from": false,
+        "visible_on": "2019-01-16T00:00:00.000+01:00",
+        "lecture_media_count": 6,
+        "media_meta_data": "6 Video Files: 00:40:55",
+        "button_title": "Go to Session",
+        "button_class": "",
+        "modal": false,
+        "course_session_path": "/courses/real-time-audio-signal-processing-in-faust/sessions/sound-synthesis-and-processing-ii-filters-echo-basic-physical-modeling-sampling-and-granular-synthesis",
+        "title_with_type_and_number": "Session 4: Sound Synthesis and Processing II: Filters, Echo, Basic Physical Modeling, Sampling and Granular Synthesis",
+        "thumb_url": "https://prod-uploads-pub.useast1.kadenze.com/prod/usr/uploads/course/169/lecture/1008/logo/cinema_Faust_S4.png?Expires=1654854281&Signature=FpKWpqyv4fZNBcpb~OyY3Q50VYvycqAKM9FmY5ST2G0wtTyDHOx3poq8AbUtCFAPrpeTu1TLo425Tvd2CGk8EjGSMOy4Eo-zuKaVYTLuy4IJfmnV5~VuzWfg7KfXEbfUiQvMY3hS6RxfgHygI~81JYSkUgJAVvaQidChK3IzO-QmVQ0RVpi-uEeJoVb1-Nc3WzFRRZBQrKWjZVcbp1X6gcHPGOVcl0rNjcLQWjqciFSG1YHkx1ZwRSAE7hRsCwFwRp7HwLTLDgpS3b7-qGAofa2~WZ8Niq4x66zInhfvrrdm~csSLjyA-8rOKPZ1BXN9QoBZ24Z2qwQfFk7DKy5Xqw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "adaptive": true,
+        "coursework": [
+          {
+            "name": "Using Effects From the Libraries",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-11-using-effects-from-the-libraries",
+            "link_to_cw": true
+          },
+          {
+            "name": "Shred It! ",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-10-shred-it",
+            "link_to_cw": true
+          }
+        ]
+      },
+      {
+        "id": 1009,
+        "course_id": 169,
+        "order": 5,
+        "created_at": "2017-11-11T02:52:43.608+01:00",
+        "start_date": "2019-01-16T00:00:00.000+01:00",
+        "end_date": null,
+        "title": "Deploying Faust Programs",
+        "description": "This lecture provides a survey of the different Faust targets and shows how audio plug-ins, musical mobile and web apps, standalone applications, etc. can be generated with Faust. It also demonstrates how DSP engines can be embedded in other projects for a wide range of platforms, frameworks, and standards (e.g., web, mobile, VR, etc.).  ",
+        "show_meets_from": false,
+        "visible_on": "2019-01-16T00:00:00.000+01:00",
+        "lecture_media_count": 6,
+        "media_meta_data": "6 Video Files: 01:09:53",
+        "button_title": "Go to Session",
+        "button_class": "",
+        "modal": false,
+        "course_session_path": "/courses/real-time-audio-signal-processing-in-faust/sessions/deploying-faust-programs-28433c5f-d62f-44b0-936d-8b87c62e13ca",
+        "title_with_type_and_number": "Session 5: Deploying Faust Programs",
+        "thumb_url": "https://prod-uploads-pub.useast1.kadenze.com/prod/usr/uploads/course/169/lecture/1009/logo/cinema_Faust_S5.png?Expires=1654854281&Signature=DSdbxq57L4HkCKTJGNcw7ssgoqlCAftpbvN7SNMPMMzy6n0TDqPToL31t1eXIKA4RcSO-Hjt4j~gapqvRF~a96dX6EFhGlLAg5BECjLZh89i79JDPojemtUFhat52RmA2hfZ7DlbwJfCuvY1aPZeFPkRvDAENdnjoZcT0Lj7GFO2cTJb6B78vWRujIoPYuKGGeJach0WGKacmr7RyZveAlwThgwgBU852ZX-R-PMr7fayRcEmoVsxF6vkpfqeXfauuyoWvLiCb5hitl0m3snBP5x0gXh9P45oOBAX1lv7EobTsdwF-8jd1-MVnt6TPt8iodIlaK2WvF52vy6cDm5KQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "adaptive": true,
+        "coursework": [
+          {
+            "name": "PureData Externals",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-12-puredata-externals",
+            "link_to_cw": true
+          },
+          {
+            "name": "SmartKeyboard Looper",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/file-submission-13-smartkeyboard-looper",
+            "link_to_cw": true
+          },
+          {
+            "name": "Exit Survey",
+            "course_coursework_path": "/courses/real-time-audio-signal-processing-in-faust/coursework/survey-2-exit-survey",
+            "link_to_cw": true
+          }
+        ]
+      }
+    ],
+    "paginator": ""
+  }

@@ -1,10 +1,14 @@
 .idea/
+.coverage
 .cache/
 .pytest_cache/
 __pycache__
 *.pyc
 *.egg-info/
+*.spec
 /.pypirc
 /MANIFEST
-/dist/
+dist/
+build/
 venv/
+test-configuration.yml

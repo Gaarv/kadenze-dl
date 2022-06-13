@@ -1,0 +1,1125 @@
+{
+    "videos": [
+      {
+        "id": 8294,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8294/file/Faust_C1_S1.1_V2.mov?Expires=1654854872&Signature=kqthI3ziT~hZ6n3xFD6y5MaZjHsRrTa9dpvNgRT2DSAqbNUbMw3DOn5BEaEqaOM0lt4TbytryaWjAjI1NlPBBw9dtmhzGQF2Gg6P-0~WFKm~mZ3D5Ml7VHvoS8gWbzJoUoK8l6EQ7GrpSanzPsIth2Zfivn85FyCJ4ma0YUXm183bolDuENKTGhugUbi1qEbHOwbarq4L4Wlnj8EFimZ8g47uBKtyWxkiQoCN2sHN62mzJljmR1O9fGEFRAoSMOg9erb8YyPAKBTzFNF1sl9WhmKmtR6UvxlBpLtFiYR3q6aFwcqnpJjAMXCMyV1OOYqJPt2169gq5e~i3vGm-ngyw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8294/file/thumb_Faust_C1_S1.1_V2.jpg?Expires=1654854872&Signature=OWXLTcNgg~HfXAzz0SuBVqQBLp9nEQeYlH7WbTxoWTNs7-kMVnMFatoCaSdb7R1f8nEzwSgC3tusetn~WT64BxcHVJKWlBfQUbXhi3qCsQov4~zpgAgocJPra~54r4IOza0sRzgUcEm1Ke1x27VNfUgetTAsvr9ad5b9a0R8-FWMMDEo3iqMnL1UMjlxpR-68dCR0z1Vtk9DWxlw9MAI3MrT0TtRyYIpoBgRupFzFPeam0bbyHWGQsk0UjiMCYoAHXmWDsVrUFnelWJrzt3VEJ5P-hT~dW4ccs08mVBBnzM5q9bZstMoU3bMUfC0AyRc8Bh88igxkDiaMnlidT51Lw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:16:50.207+01:00",
+        "updated_at": "2022-06-03T07:54:37.119+02:00",
+        "order": 1,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "130.09",
+        "size": 85104017,
+        "title": "Introduction",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8294/file/Faust_C1_S1.1_V2_360.mp4?Expires=1654854871&Signature=PjeYsixLHI802my4v4tfmUSxielYzwKFYLQ1jsXZbxu2pftNhdTK-JJ1sCzR5UqQfsaMhEDdN4uYR1~1kHXq8psdPMLPYFRco3HWG-HV2jkdydv1T5K1CzNDgwsyXXbc4hAVx4vJbqPfJTTyM5-Cwz9ac8kZ7Qal1CIIBHty-cKIfxFzDZZYrmmX9XGJk-6aPlfkqiJC250sfhfSrnoRfLsNEazQzbFQie4OS7kU1fH3cnDfIq3EjfzlfYyHlnyjB9xWH5aJ8JEbhfYMi3u4GEDtxAtsVeof5UDzf3~lRnMe5KLUwTJHPhwCwmiCK67z5R9feY1Ak7crcqNAutw3IQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8294/file/Faust_C1_S1.1_V2_1080_2700k.mp4?Expires=1654854871&Signature=QvB8F~I6Lijs9ll1midQhBawperY~dgvsg1hccHg0I4nhN53~Q1xX25gWuNKEcZEBNLY4ldloUSyaEGDRE5y82W886p0JA5QDIuw4-H3jkIaAAIXZO5CgiSYauxf0r7nbiQvNDja5r9ydUdPatBuLnatEY0ZUf~-7YoO5~ljt-KrPEUpiSER2cPdodXgjfrRJs96dX~KD~YsUOGD~u6mop6IShnZyU6tjB7NNlZhoZIUIxHHV7bWVysmN38tPdQJdfkOmoq1IdV61tMjRHidagAqRYgKo7Ad8DpVIpQvjHEGpwlrJaUQ0IRuAqFeOmVsr3GIjf9Rgd8nMySeV~2ZAw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16592,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16592/src_file/subtitles-en.vtt?Expires=1654854872&Signature=Y1qbdQyt187TAJoUv971ivprA2~LVQkomyBMCnijbdyD4OXglRTGSRs6Lo5UJXdUrKOAVhgyJ9JYeN4dYaYuA8s-p~Thx0bSvfI8AQTWfNcZ2dk47nNAPovmW-V9SXSUvOQLBCprooE06ca4amDTr7MpKkMbs-GM4kB9u8Sta3NS2pfhT5H2fmp8pgqiq6KDLtPVnSz0QNxgG2mnvqI9KtDGhN8bT-mmsbE9NTDW77zF1AwOTs~1Q2u7fDaUGxQLO~vWW~F1lXbeddtDoBaojppjTTfejDqmk0jAoDYOMFBRKA5Ot8t6NmWYGveVaOmZEQhlHnSeaMu95xswubsvAw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8294,
+            "created_at": "2019-01-15T05:37:54.799+01:00",
+            "updated_at": "2019-01-15T05:37:54.799+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": []
+      },
+      {
+        "id": 8302,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8302/file/Faust_C1_S1.2_V2.mov?Expires=1654854872&Signature=j5pwiYfzJQbdD94fa0~9idige9TdFDreegTCMaODTOvyHv3MMaEotaHlVqRW1ecFfbJp6e2xEkKR2OXry~bDE0ruPwxbPWQQT-IAVj-7wto-vYxCvRJGo2IBpw0V8LQBcZae9TtbOSb~qRZcPA6hz8yr0qE7D1WgUXt5YS86uxJgBoNW~BTOCURUApS5dklWLh6Iqpxt1qBqwJApwJAtIzlMzY3MNpC8IPiZi9AoY8SlzRUwxwYZPh6UKrBn~g5oi3FBfZuIE66U1lUo98~hCq4n4HoM~pBT5rSYgF3h0VHaCoLCbEi9huQTFAyKYHZDPz2OvgGAiLSsKBWtinx1NQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8302/file/thumb_Faust_C1_S1.2_V2.jpg?Expires=1654854872&Signature=lToGpCBwbBe4cCrA1HWO0RY1IlyQtBwqB~P3IoZ-tTTdsDL9wjAdRQpgdDQkxbcdgMP9sKANEyL~KgYL7e8-xXkUPD1w5qgGjLpY2f4kusugYivh6BR2Wb996UEBgFrkJnBstVxpUmksS0EPNZX9~YB8lpK0VFuUFHGM2SVHq3GxS8TbTwPcqTAkcYg0tnD1R-bCp6nTALxyT6vaQ-ZLZRXyeqfZEr1wEhdLGK8RjRCtvDY-ixPLUfkQfAveikBqZ1ZP1gijLjLsPXA8NbaVgzMjpme~-bKpAfLCk-IsAytrDfWUwa6GUXW-rm-xL4gJ8kvjUgUX0slL-ZPQgXMZzw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:24:16.603+01:00",
+        "updated_at": "2022-06-03T08:00:19.570+02:00",
+        "order": 2,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "206.33",
+        "size": 91018588,
+        "title": "Faust Online Editor",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8302/file/Faust_C1_S1.2_V2_360.mp4?Expires=1654854871&Signature=XdsGAe6eFVHKK67FVucMnSMFx-N03uUJKpVBN~V4ll7yBi08JefkPgM8S-oLxSCKY5jq5rslONBFT3lmBHiVqkDxOD3avMDR~XhkwCF8kAafD9nVwWgj8-QssW51JwGtaEW-6Pm0Z2MEhJjGm1uFQLpOv4FN1GV5f17MxmrZO3OFrC4D2MNWyQXnChlw~C7LDG9Gc3bxr2qe1EL3dTD4rY~XhhDmDl1dESHU31hu8nvJa0RyUwK4GXvuu3ZqCsOfqXgxiBw2M2K-dJCVinJAc4uEYK3-tyuJNPQE842Lka9gSl0xjeS0jGbBeqRD8S0IORHO4bgQR9p1fNNaEy5guA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8302/file/Faust_C1_S1.2_V2_1080_2700k.mp4?Expires=1654854871&Signature=G7fd42Kq3fsPEGoPWYAno9MDol1BUO9XszZZkevQIsczdKG0UgTAcRTLFqigcaplUsPRQSnpuf~1f5h~E-ouOjOQRnGk5sWi65AMcoIRM7jrGQqdXVk9eVstg~Ckqshr772v5qYoK8HFV6p~YDcB3N1I0gVT~1n~8uANneaxi9-SPsOvYXZu6kpMLi401~tIuIgN8I6VSuVC8RZa0kWnHsEu-AO6Or3ntaR5UVGGFypZNOQEt37ox36TJgs0jvMPHtwc3MnOIABdEBXp2YaLGp501RxHR-72fFraV2e6yWNxt6MIovFbJ29s1gTlWC4hBD8atprArNSyiMza25EN0Q__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16593,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16593/src_file/subtitles-en.vtt?Expires=1654854872&Signature=g624HhXOAyvXa3AYER7r9kJomoB2kX3jgw9jZvS-k~0masQfJL8eniYMnm9v0b4LrYdN1zVyvbtFrrIo1hu9u29RuvnZw3anghIVjftBvJaxK9Wd7LdZGEA65WdZ0MLXsA3dVRZ42wAS173Zxppv9qaVbKuGe2NoEXEus1PsJnO9IkkK3TvGSum18VjxaiCzRZ4G-rcXs0oCvcxwGTtE7I3jPKs734IO6DzYXfCRLlEaIlkjeNZ8BgrFwUNbwUABuyb~5vdzt0ZiG22TkXdOIxy0ERaSbNG5vWeaWBcOVyq3ABkgFB6Z3NcnTOBeZnJ4Ptf4D~J9yNWa9Xc7XAkqDQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8302,
+            "created_at": "2019-01-15T05:38:09.632+01:00",
+            "updated_at": "2019-01-15T05:38:09.632+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": [
+          {
+            "id": 470,
+            "type": "MediaQuestion",
+            "cue_start_time": "50.293",
+            "cue_end_time": "-1.0",
+            "cued": {
+              "id": 10007,
+              "coursework_id": null,
+              "name": "WebAssembly: https://webassembly.org/WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for...",
+              "gallery": false,
+              "peer_review": false,
+              "created_at": "2019-01-16T00:03:12.231+01:00",
+              "updated_at": "2019-01-16T03:22:49.293+01:00",
+              "required": false,
+              "definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>WebAssembly: <a href=\"https://webassembly.org/\" target=\"_blank\">https://webassembly.org/</a></p><p>WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.</p><p>Developer reference documentation for Wasm can be found on MDN&#39;s WebAssembly pages: <a href=\"https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API\" target=\"_blank\">https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API</a><span></span></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ],
+              "_type": "MultipleChoiceField",
+              "extra_credit": false,
+              "autograde": null,
+              "old_auto_grader_id": null,
+              "order": null,
+              "auto_grader_entry_point": null,
+              "template_id": null,
+              "editable": true,
+              "auto_grader_version": null,
+              "auto_grader_jsonapi_version": null,
+              "auto_grader_id": null,
+              "plagiarism_detection": false,
+              "check_library_plagiarism": false,
+              "student_plagiarism_visibility": false,
+              "field_definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>WebAssembly: <a href=\"https://webassembly.org/\" target=\"_blank\">https://webassembly.org/</a></p><p>WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.</p><p>Developer reference documentation for Wasm can be found on MDN&#39;s WebAssembly pages: <a href=\"https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API\" target=\"_blank\">https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API</a><span></span></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ]
+            }
+          },
+          {
+            "id": 471,
+            "type": "MediaQuestion",
+            "cue_start_time": "71.533",
+            "cue_end_time": "-1.0",
+            "cued": {
+              "id": 10008,
+              "coursework_id": null,
+              "name": "Woohoo! Open up the Faust Online Editor: https://faust.grame.fr/editor/",
+              "gallery": false,
+              "peer_review": false,
+              "created_at": "2019-01-16T00:11:02.542+01:00",
+              "updated_at": "2019-01-16T00:11:02.542+01:00",
+              "required": false,
+              "definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>Woohoo! Open up the Faust Online Editor: <a href=\"https://faust.grame.fr/editor/\" target=\"_blank\">https://faust.grame.fr/editor/</a></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ],
+              "_type": "MultipleChoiceField",
+              "extra_credit": false,
+              "autograde": null,
+              "old_auto_grader_id": null,
+              "order": null,
+              "auto_grader_entry_point": null,
+              "template_id": null,
+              "editable": true,
+              "auto_grader_version": null,
+              "auto_grader_jsonapi_version": null,
+              "auto_grader_id": null,
+              "plagiarism_detection": false,
+              "check_library_plagiarism": false,
+              "student_plagiarism_visibility": false,
+              "field_definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>Woohoo! Open up the Faust Online Editor: <a href=\"https://faust.grame.fr/editor/\" target=\"_blank\">https://faust.grame.fr/editor/</a></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ]
+            }
+          },
+          {
+            "id": 472,
+            "type": "MediaQuestion",
+            "cue_start_time": "83.07",
+            "cue_end_time": "-1.0",
+            "cued": {
+              "id": 10009,
+              "coursework_id": null,
+              "name": "Subscribe to the faudiostream-users list, related to the usage of the FAUST language: <a href=\"https://sourceforge.net/projects/faudiostream/lists/faudiostream-users\"...",
+              "gallery": false,
+              "peer_review": false,
+              "created_at": "2019-01-16T00:18:09.563+01:00",
+              "updated_at": "2019-01-16T03:23:19.592+01:00",
+              "required": false,
+              "definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>Subscribe to the faudiostream-users list, related to the usage of the FAUST language: <a href=\"https://sourceforge.net/projects/faudiostream/lists/faudiostream-users\" target=\"_blank\">https://sourceforge.net/projects/faudiostream/lists/faudiostream-users</a></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ],
+              "_type": "MultipleChoiceField",
+              "extra_credit": false,
+              "autograde": null,
+              "old_auto_grader_id": null,
+              "order": null,
+              "auto_grader_entry_point": null,
+              "template_id": null,
+              "editable": true,
+              "auto_grader_version": null,
+              "auto_grader_jsonapi_version": null,
+              "auto_grader_id": null,
+              "plagiarism_detection": false,
+              "check_library_plagiarism": false,
+              "student_plagiarism_visibility": false,
+              "field_definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>Subscribe to the faudiostream-users list, related to the usage of the FAUST language: <a href=\"https://sourceforge.net/projects/faudiostream/lists/faudiostream-users\" target=\"_blank\">https://sourceforge.net/projects/faudiostream/lists/faudiostream-users</a></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 8303,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8303/file/Faust_C1_S1.3_V2.mov?Expires=1654854872&Signature=l1E3ivJK78D5bJUQeKMumcTY4L6lQz2Qtrcwsbu7472cHz8p1lBdCb4f10E4vw3i7MqN17cO5VI7r2lNw-SnUTlyOn3QSmGchL7Yz21pTU8b7H2Ux-UyIQ6HLbtwxHJJ3AB5SB1QO3DQZG~xaXuwK~LEhVc~KJV2JnOJzvQbYqwUZTDHt259Ir6Brqf6OFtnokVCbx~aG1OJOwSwR6EkMdgm8Lb5HpNrUkv~10GBEbJ~F1mwDtTqA1vxXwORhQoCQVkZmXF~DpCsPOW9I7DIYMahjQPanNmW70sUxGGfhNmEjLFsMxKVfoVDJIRGQLNaeKDWLmjDwnBuhpivcqUolA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8303/file/thumb_Faust_C1_S1.3_V2.jpg?Expires=1654854872&Signature=k8cPBZVW2TpMdevlfdCFG2C3OS6oMKKW7J6bwMyUxlPThJuRXBjYW3K7BGRHcCGsicQERPWABNNijEEgsFzBCyj-LMBf2ig1y-UJrhSpZ8aZzGFjoquUxG8Dn2CT~LhLlzaQ-cuUuqaHLBvVRpy4UfQffk4WElIgptEBR2QjR-F2X8m8aLpCwdKrtqyAuRpptZW-hOlmJSyqKqNW96VAHaJL5hnS2bnTcg0scB6Bhkl8erSOIVIJExhVr6VKxvmFhDSpXA5RLd8l0u0UdhtaI9PpK4ZE4i42lkpQV4aQnMLk7QG9VUYYUOIhR0mGdUXkh5Pxz56iHCPntepRqoaWZg__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:24:34.507+01:00",
+        "updated_at": "2022-06-03T08:07:34.267+02:00",
+        "order": 3,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "238.2",
+        "size": 148500227,
+        "title": "First Faust Program",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8303/file/Faust_C1_S1.3_V2_360.mp4?Expires=1654854871&Signature=inoQWP7vQ0d8oBrJZdbWpwHlqBgt6S2x2E3WpMp9M7O77ZzE3cVWFDyLtOjcn9BncDNpQhcNgbC74r3EiSXl2zyh3RuofZURYvGnH7hYNQWQOgckmw1oqoIk4H1yZDL-tEFrhk0Vxu3QZxUBqgqeON5k3JLbzoaxb9cUztDm3duAZ4EDVFFA39UzsR659CWjBK2WTVfMpv1XejdQz-heytDL9Wm0kOlL~1Ez6BjXOV5ySsD66V-3MS64lUKBYJrssXwiqxgDTvDgl3~FoiM14OHHDe7TvuA-eKkHRAPzKirVSXzaEItU7RJeYUGVSPlL9YJZ-fE001gLYenKK1MrdA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8303/file/Faust_C1_S1.3_V2_1080_2700k.mp4?Expires=1654854871&Signature=GhV712XWKiN8WOAGWpee0-4o2CViexZ~W8GcHdRRBsK-mVViyLSKVJ-YGpk7SYYpt~JgZSKTZLX968DpHpsC3S54RvrC6TzVarGFIKp7pjgJVJLY0lorDISR8UErJIz60B58FbcgFDXqY2puWHpJzO5tBSvtOWM0DYVGDr2WxKgKkSOFZgNPO7nVB4ww5YKwgwTQ-TfrEr14T7R3DHuQnz~DEpXD77O8SwSzd0Tsy6djsFxvMukMEEPICYFFc4F9X6yQ1QZtrzi0hFiQ9o~QVC8~HYSm~AZ18RyES3nbzYxkR7qiI1c8Kxc4-o7aeHyQwZFq~nXWIIco1x-3wVe0uQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16594,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16594/src_file/subtitles-en.vtt?Expires=1654854872&Signature=HQOFvXPNwtZ9O799nx692iPZQM0yiVSwsfcadXWMWZ5BQHfzUf2Zwj58-hgaLfqCISWgbWlgZg4OWJKnkaOEj6l2Asxi3ICd3EAVQB-SY87oM74q-~y8G95Gr-BFl6IiLKyYdQOJd-IQYr4Sl8Qm4pRgnOIy72SZYFBJKyg92y1gei-s7i1EjPzUyGwcUbioZwbg99rC857tl8kUfJkUA048xQA6EOhXvHPjKhlwqLwjcMRNn460saFMF3ZBRw5GXRZT~KbQryOaR5JNchZcra6ydZKWOusEp-eU~TCSzUS4W8wjmo~uRVjK~Q7PSCJoVCoW8zPo~~jSviiba174Jg__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8303,
+            "created_at": "2019-01-15T05:38:25.027+01:00",
+            "updated_at": "2019-01-15T05:38:25.027+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": [
+          {
+            "id": 473,
+            "type": "MediaQuestion",
+            "cue_start_time": "237.798",
+            "cue_end_time": "-1.0",
+            "cued": {
+              "id": 10010,
+              "coursework_id": null,
+              "name": "QUIZ: What happens when the semi-colon is removed?",
+              "gallery": false,
+              "peer_review": false,
+              "created_at": "2019-01-16T00:34:55.363+01:00",
+              "updated_at": "2019-01-16T00:34:55.363+01:00",
+              "required": false,
+              "definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>QUIZ: What happens when the semi-colon is removed?</p>",
+                  "options": [
+                    {
+                      "answer": "The program still works.",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "A violet bunny appears on the screen. ",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "An error message is prompted.",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ],
+              "_type": "MultipleChoiceField",
+              "extra_credit": false,
+              "autograde": null,
+              "old_auto_grader_id": null,
+              "order": null,
+              "auto_grader_entry_point": null,
+              "template_id": null,
+              "editable": true,
+              "auto_grader_version": null,
+              "auto_grader_jsonapi_version": null,
+              "auto_grader_id": null,
+              "plagiarism_detection": false,
+              "check_library_plagiarism": false,
+              "student_plagiarism_visibility": false,
+              "field_definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>QUIZ: What happens when the semi-colon is removed?</p>",
+                  "options": [
+                    {
+                      "answer": "The program still works.",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "A violet bunny appears on the screen. ",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "An error message is prompted.",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 8301,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8301/file/Faust_C1_S1.4_V2.mov?Expires=1654854872&Signature=XzE9LMdS2Be2yjpkqIufCCyCBG62yCsmYzoqSE-XGcX1MamgNyqPlKMt~36UyJ6T6eJ5~rpTT8me7VJGAAMne~Ye7oDBhotQ873NNc2obTcvBMr2daTcTwz5Z4RxZi8avuU4QcXWU~3wlF70krqBqT~06YD7ErS1-FSCn26Hg5GJkFGvzDzB8QJRqc87lL1GjBOCu78M8D1k1VNl1q~xaWdLhfNnFieZCtNLj5xMR7kRmsNenJClPS1e4wfIr0gKTtsBx-co8FFj0sZfcqQ0NkH1ZSmjgXG7EnAF7nQiTU3-VGMhKUm27vEk7o4KfrfKfaf0qq4Gj60M103Cc1dnzQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8301/file/thumb_Faust_C1_S1.4_V2.jpg?Expires=1654854872&Signature=lcPOkkT~uCAUsOcTSYLQuJfDkWvkxrD1rIXoQLbE7uvBcsYr6XodBeEijqrrwR-G12MWfakKPE6hqu6JlTtq49m8vtte7qckmEVVe0LDRzNSVHeeZVR7cCtRdAn95ztFujAQDOElnewf5qn9rgKY2bEc2bo3JGJl8jH30CJTG-ODqCTzfpUdL3U7kd2-nyjhWFT5YeXJBg3cyr9D4RkwzVgjJJ2u2MHcpv81IT9N79H4OZBqqL88v3~UIcjT0EmFNYuphcesQbGnLZQwTiW5nPfgphZzIwnapVAGNe8iY1AUZtPBlx7lhtH0eIuxNRS-KQCtSMXxWVX8hZs8Nr5rRw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:22:40.717+01:00",
+        "updated_at": "2022-06-03T08:13:10.680+02:00",
+        "order": 4,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "125.83",
+        "size": 62431365,
+        "title": "Adding a Reverb",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8301/file/Faust_C1_S1.4_V2_360.mp4?Expires=1654854871&Signature=Ysyl3QbWFx4M1HBsI8QHQ21gzAjmp8poV9bcmk-5czTLiKaLsmwUwOmMALdG2dADNdZzxjCcIZIdhdK6noJvXsSLlJMH6RyluiClJhRKZ8tg6BGXJHOEam3bBzUD4OGqVJo649V2ujGNvGVZl6uLHtUGymp4uEvrMnTK~yBU8bc~nF393MlgYVuHjl6mkoKlfmJyr4gSaMVsIl7qnqVy-BzsA3rro0p5Y4AGMdt1rD7AukSZCYHKR1DjZpYtHmMbvYGSfry19atQ8Aop8FXVmJvDX4jCtOQH4BQLuoi3VBD7P7ALja0a0MK4JbX3qa3vJitxncJeTf8wg1QPOeZucg__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8301/file/Faust_C1_S1.4_V2_1080_2700k.mp4?Expires=1654854871&Signature=V9s4192pnfOckc1GzSvv1BS62kevfS6BQsnlYAo7If6SpHoN~viJKTiljHSsy6MdsSJxXE0DecmkOdG7Tk3wJkGi7-5zBe0dv90EjLfQ~QR-86cW3V6QcJ-iUXCzJ7h0cI7nnihm4x-Hu0P6dLbm-9MtstiayFpWjvPXhozipnSiivhTysoMX4-c384U76AkTn2btPafqkBS91dXrOdTWpfzkIaFNLQjDSdaQGbzFULQ3M2c~O-C8AMaQ2eTBgtCkwbEe3t5ApCuSNAgYEV9qInYCbl9YG8HY7XkXohd4wZptdR9mYvm4fxCRCxvyGmGyXofuLTC1KrB6y3I058F5Q__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16595,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16595/src_file/subtitles-en.vtt?Expires=1654854872&Signature=JJmNFtvjjvWX9Kn4HgEgkqxD~fcznSajLA3BSu5AVAlh6LXvH21oCEn981IbkKUqCyLrkkAZE7-QiSRFgLTxTacNiyXE2zIvPho4Dm17id4CgVD2SNgd~3ha20gxqyZFKIll1krQMl74izmF2E1VXeXfzKXMl8ATWAwJ9yIQGlrMefZnexw9pWugXusnZDfUNzESEqIzpdWH-kwTGjLpu~seq5QB3OhBovRCQYpg3MIWVZzU2sGdHv0T3aROqrYoys40t9ZCFfv2F3wqFsxdNaXkKB~ofVFphqPuj4SCpsrbQFakAQSz0rgXQ4bBnhFg1ckzQfM1P39p2raXmlYlkw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8301,
+            "created_at": "2019-01-15T05:38:39.555+01:00",
+            "updated_at": "2019-01-15T05:38:39.555+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": [
+          {
+            "id": 474,
+            "type": "MediaQuestion",
+            "cue_start_time": "59.705",
+            "cue_end_time": "-1.0",
+            "cued": {
+              "id": 10011,
+              "coursework_id": null,
+              "name": "QUIZ: Why are we getting this error message?",
+              "gallery": false,
+              "peer_review": false,
+              "created_at": "2019-01-16T00:37:34.397+01:00",
+              "updated_at": "2019-01-16T00:37:34.397+01:00",
+              "required": false,
+              "definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>QUIZ: Why are we getting this error message?</p>",
+                  "options": [
+                    {
+                      "answer": "The number of inputs of dm.freeverb_demo is not the same as the number of outputs of pm.djembe.",
+                      "selected": "true"
+                    },
+                    {
+                      "answer": "You are never allowed to connect a djembe to a reverb.",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "dm.freeverb_demo doesn&#39;t exist.",
+                      "selected": "false"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ],
+              "_type": "MultipleChoiceField",
+              "extra_credit": false,
+              "autograde": null,
+              "old_auto_grader_id": null,
+              "order": null,
+              "auto_grader_entry_point": null,
+              "template_id": null,
+              "editable": true,
+              "auto_grader_version": null,
+              "auto_grader_jsonapi_version": null,
+              "auto_grader_id": null,
+              "plagiarism_detection": false,
+              "check_library_plagiarism": false,
+              "student_plagiarism_visibility": false,
+              "field_definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>QUIZ: Why are we getting this error message?</p>",
+                  "options": [
+                    {
+                      "answer": "The number of inputs of dm.freeverb_demo is not the same as the number of outputs of pm.djembe.",
+                      "selected": "true"
+                    },
+                    {
+                      "answer": "You are never allowed to connect a djembe to a reverb.",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "dm.freeverb_demo doesn&#39;t exist.",
+                      "selected": "false"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 8300,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8300/file/Faust_C1_S1.5_V2.mov?Expires=1654854872&Signature=BelrNHPd14sBJuNhsfISsoskOuVdjdW792yVRcj~jKBVmT~8lRYumVrZa4oqm2q1t-YvUTlMwg3d3UGjx69fxkY2OIhk7WPoHj3ZcJQvtQ8lLbZgBnFDvFoNQ3xA8lmedN2GtiAjP63XQEqVplqDB0oyEeXFeAHGmRAsURKXbJE0uzOYsbm92RC5SEYgoUrO2Rrmyfn15RoeRj2lXHo9Iuc3w6dZzm6ZjtFh~CZOFkF5xNo7puKCNaYBFEWemOtF3os0AvC8qzCHHytB1uRg-E5qgnjbIv~k5XaD8vdqwGsG~DkJd2U7KJ3BuvlBx8OE5QxMMNW0zHUJGcY0vatBXQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8300/file/thumb_Faust_C1_S1.5_V2.jpg?Expires=1654854872&Signature=UtDIk~L~JAGEqz~F0h0wyQJs8c09kyPjd8gOcYc-AdVf9P34qimXljRWtrtQ8RTksDKy38gFYKBrtGazg25DM5R3pyCUdy4lK-lXHFScQyAk6kD5DJeh3UwI-qi4rxpOppcv7MO8~eWnZbFpdbnqGhmnxLrZp4si7GuIoMa7eaCnf08C2CkSORLxDeNDG8twaGNe0v0yHL97WRYob5gzhN9r2DOI6rxUh0ahaCsCR99S6DURjEz6nr1S86tasMv2D5XApSgRbUwd1OeP1AeChyCXtP2iYRv8E~3CROdDDrqSMPovQ22fVywKbhT4yox8KPn7OTCjAZwKkeWSm54nrQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:21:56.608+01:00",
+        "updated_at": "2022-06-03T08:40:12.341+02:00",
+        "order": 5,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "224.39",
+        "size": 131895711,
+        "title": "Automating, Triggering, and Generating a Mobile App",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8300/file/Faust_C1_S1.5_V2_360.mp4?Expires=1654854871&Signature=D3AjmRR9STKiDOYwcLvS~rFW8W3pkY0sAIfkNLwEaaveUrU0CAZmBLUn3fk1pTR949Cv2FniGqI1~q5xr1fCyos~x-3i7urY2AZ6BVmxAbEUA3TDuqFuaSQHAoAjArev~BPau2apeHcwER8uOiQUThdUDmIeQaxFqrQc9NwttVrMDQEzq1SgXYfQjoCib7lCuCVYZFvpBz6tRzEvFGyqq0HDzDhgWlM4Lm0qNH0Cj6wdU3x2vBprMWSbTfPNtnY57vpeqt1Z4NXzXPRzoDThx9br~zeTwj8sCFfaEePoYiOqIf5dvrz6xeuEtt7SP4aoDJQ4LoKtWiM-nb2Jlt3ZNw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8300/file/Faust_C1_S1.5_V2_1080_2700k.mp4?Expires=1654854871&Signature=XfmNdn5j36DsiWU4c9DKLySUMXKh4jEXd8fbt25BwECOuOm~~smbx~XoOun-slWKq2SjsE~yyje9viSI26VsBnzA0KYAMlqYpQzG5eU09A~P1MnoHGqJ10w6eIkGnEei48KyM1DTUr62AdURL5cw9cfrEffts9om0PO9eaUeb6RIzyvfDrm0wB79NS6oWP~75uept6lsJc7hxY3aB5bWkI0UoB1unNsBsDI7bMWy7pZ8GMKeSML~a3c9l5BLP0Gqpf5jIyNYErs-1aEvVHv6PzIkgAd1dJBvVrmgLDnUDd3EpUDc6iJViudOJplRsZjhFTlUf8mAYd~hGInC6fNctA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16596,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16596/src_file/subtitles-en.vtt?Expires=1654854872&Signature=g6wO7VIER2ubLyfH9lcMcSh9ojXVhpUmmmspvcj2ageFs1r1Z4lYeUdaUM7CxpckSJzyNVDLlib~KsmXjvLu8NlMVhGvH7SYFTVc6dVTcdf~HrSwwVBVm6gOSLfYeZQp80AWelpWJBqq6KcCZJEYkZpJFmCBOzfFF8-2p3O8vBYn8K-YKhof1uz-xY9U-nkplR48jAouTmmNHZSuyfyh2vEfUSCWAaVIlehaUwHZtpro2MNF6SngGn3UU6hjKMmMjGSE3cxiO6AcEnPkpTIcjsbG-~2QR7Tnezrq6I5iqhwKe8Ik-0VlPXA~AHcr0RpSNuYRC66R0EdbQe5ZRuYaXQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8300,
+            "created_at": "2019-01-15T05:38:53.548+01:00",
+            "updated_at": "2019-01-15T05:38:53.548+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": []
+      },
+      {
+        "id": 8299,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8299/file/Faust_C1_S1.6_V2.mov?Expires=1654854872&Signature=KZluLvshBF7kYWYptVRwDbNgG8IBfVDOcfka5lMz9N4NXFzbXBio3LFg-~WtKnadnuSiTHVEt8RFoPiJ7CykbeQ80BcsNSMQmn~VWDEP86NHowdfRWCUpA6o0GTpwluexhC4gud-Mupthr1NOit~LP1aQ323i6xZCjwkttJdRDFz-PkJBmY4BHvDmNTn6hyPZ6-alOJx0Wu3oBfjZMuTZa1KN8mhvLjxOz8WqB4dUa8~Rca3tZ9546YC4RIf1IEZpTBgI1-Ihq4fwq0Fz3U9AuLA9yy697lbZqdO9VSw82q~YFYjQuFOCdOchr-YrHTgB6i8B8jgeLd2UqZDsvYcwA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8299/file/thumb_Faust_C1_S1.6_V2.jpg?Expires=1654854872&Signature=hLkmMx9WQrQJVqWl5I8O6l4qzLSe58VGj8hfcU-Sx5Re8-3oHGU3V3EDpuiUdLbHtoji5oxWAyirfIv-Ve8xa8RpEd3i6sJlBBpReuB1gho3kKDz~UO-0CCo62Kt4UHwtCZCQAf0FwRiB2RWv~BNZr5nZq21ooXAtIKoPnQvqohILke5WAp3tpSuaL2A9S0RaZ~PQmw6S~dCjGjjl1LF00IdeXAJZYjfV9bDtmf0tLsVXoKb1NqbXXmtSgRwdqEhbOvWTRkl13yII9Y6ZYXulA-MUZcQcodnpcUprE-pNIemj2nd2s2X7IH5YaI45vAqHq~T06FfPvhd-Uo~Dvb2DA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:21:33.512+01:00",
+        "updated_at": "2022-06-03T10:14:35.084+02:00",
+        "order": 6,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "179.64",
+        "size": 112376238,
+        "title": "Using a Sawtooth Oscillator",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8299/file/Faust_C1_S1.6_V2_360.mp4?Expires=1654854871&Signature=K9Dq5F6ecKN40Htmn5Ed6rnBHaLQ-ilIvdfXwr5ccZuPRcfmY-X1IAg4wK~GgfRjHHtlWayxZ-V9w1cg~4Fk08VXBYKTA0knMA3xikAsxPaDP9ihmXMFtRTevp-EfokGi0hC5OE63u4fz7zNkEgeMMtNC9D~Q4pNA4GPrPV2xOt-sug0sLoS9-bs0EjgZDUNB6gXFFEpI41wie1C-Jjt62g51blAKZIYrVlhSBN2PkK-DpiztsW4S1tFqKkhce3rqsOMtu6cmovRGmlZMEx5CbO8XKNz0SOu1~w32Bd1MuXFW3XPd6VQGv0xvxujKBQe3OHTXm5O2SofZi75P0OLsA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8299/file/Faust_C1_S1.6_V2_1080_2700k.mp4?Expires=1654854871&Signature=FGHzzNJMJeflQE43Z6bPTzRQ9SRQfw2MF6wim03U7B6noI1vb9A35kTowpmZQlmCbnYe~RKt35~NI3~NBU74QyJ95JFuOVf2N62V99qccmyhdr~05z05o2f6Z9ktoCU3yW5M-kDUadcEBiGwol4k~EWfFm-jACIeEkje8Hwi5yp~eBjXUEteA1OZYSuxdodH0HHJGbmo3t8XjQMM5Drkp4MLQ9xx~s7UgddfJQ4dMYCbBLrV7eduQQzx46i-dOf6F1UEVahwP5B3UMRKV3W4Yr8PayLnPfW5EHlTkPJxasg5NeAuaadA5wDpEMhlCtCI47l3iqXM1QFJa6Vn0SmNzw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16597,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16597/src_file/subtitles-en.vtt?Expires=1654854872&Signature=IZYlRJU7BzNxCJNoT5t00sFqB~MjILUqEtAODRK52eDsYTylthom6Jk2rcW7OjjI~Es2idLI7A0bJaZmqh4NIE0Wnl5Ts7KTTyMMFoVktKpaH4ov2yXsprvASy9vkejuIsaUOTvFwmCbdhOEB6gfpq4tytqjCqfQXbVFkBOqH2x2oOxdBp14lWcufxNmbkDpwj3O6AcEwZpqMXtS1waJG0YZIjZNM54pzjh3D7Vo~daY7UpBi6gZjIOJOMD3nxuYShUtgT7H16Msdq097E0jO1NBUfMLf2wzssGbCYCwrNka71QblqHtutdvhZ48TqQKN-f2fnm~nG~yCFy1jJeQgA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8299,
+            "created_at": "2019-01-15T05:39:06.878+01:00",
+            "updated_at": "2019-01-15T05:39:06.878+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": [
+          {
+            "id": 475,
+            "type": "MediaQuestion",
+            "cue_start_time": "179.497",
+            "cue_end_time": "-1.0",
+            "cued": {
+              "id": 10012,
+              "coursework_id": null,
+              "name": "QUIZ: What are the two user interface elements that we&#39;ve used so far?",
+              "gallery": false,
+              "peer_review": false,
+              "created_at": "2019-01-16T00:50:21.420+01:00",
+              "updated_at": "2019-01-16T00:50:21.420+01:00",
+              "required": false,
+              "definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>QUIZ: What are the two user interface elements that we&#39;ve used so far?</p>",
+                  "options": [
+                    {
+                      "answer": "the djembe and the sawtooth oscillator",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "the hslider and the button",
+                      "selected": "true"
+                    },
+                    {
+                      "answer": "the Romain and the Yann",
+                      "selected": "false"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ],
+              "_type": "MultipleChoiceField",
+              "extra_credit": false,
+              "autograde": null,
+              "old_auto_grader_id": null,
+              "order": null,
+              "auto_grader_entry_point": null,
+              "template_id": null,
+              "editable": true,
+              "auto_grader_version": null,
+              "auto_grader_jsonapi_version": null,
+              "auto_grader_id": null,
+              "plagiarism_detection": false,
+              "check_library_plagiarism": false,
+              "student_plagiarism_visibility": false,
+              "field_definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>QUIZ: What are the two user interface elements that we&#39;ve used so far?</p>",
+                  "options": [
+                    {
+                      "answer": "the djembe and the sawtooth oscillator",
+                      "selected": "false"
+                    },
+                    {
+                      "answer": "the hslider and the button",
+                      "selected": "true"
+                    },
+                    {
+                      "answer": "the Romain and the Yann",
+                      "selected": "false"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 8298,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8298/file/Faust_C1_S1.7_V2.mov?Expires=1654854872&Signature=Pshy2Ur9E47O18Civ9Nz66Wyjw78qWIR8EHMiVncqnnYSNKKWwo1NCRgf~fPIzaJ9IaoyrK0egqqeJdDA0ljOvYBLueHDt5f5YtXVnFMom28vaIrpOjO7aem4wxQyKL38tWtUi7kw7WMqZJ75Y0Hg66z8quS~ZmD19MqjhQUpAXowuNhxo-6W6sdM3jn~cfuqRr00CxyBwRPE~N3bxyaS4wk44IKdK5XL6YitbSR1GHY3fgGdwfUWIGNLGGAjDvYJBEQLkeS-rZmnaCZ6JG70qt0bZkpdzDly2VCgEoNeiMbE6VfHalN26cvLHVNsn26uC1mi98T1slmpVQ6U4Z-zA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8298/file/thumb_Faust_C1_S1.7_V2.jpg?Expires=1654854872&Signature=TUaU93utm6PqqS5yQ8~0LnyyD3bQi2Fb6FUz8JZVyTx39R3jVZ5oZEW006kYidVil00EJT2hL3nZvIEOVzMqex9~WnjFtz68tWYhCxWLWhNRb07jUuGTIBqSDo3eCpO3drIcMGIk46usbIk2aRFrgIm9zbfSSilw6oGwmfS13u1Lus7TXMNWR9s44mvB4HqGyvimlcFHVXR9v3K9IKnlKZKT06MbMH3o6mTbAShppp0MxNknqV9SNHO2cCw8k2sVMsULZctcr0DZHF9Qp3pmzbvs~AARptj3maifNKAumVguoPOdj02RgZAB2oNXaZrwnzKfpF523mr2-hbi0G9kig__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:19:36.695+01:00",
+        "updated_at": "2022-06-03T10:19:15.270+02:00",
+        "order": 7,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "81.5",
+        "size": 51874259,
+        "title": "Breath Control",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8298/file/Faust_C1_S1.7_V2_360.mp4?Expires=1654854871&Signature=iU3Rddh~CPoIomdCZ2QPslESxd3KZY58S3uCmns3UhTcAn~SMVbyRN6-OhST6gaHbwGvEMSituj~EERrl~z3tNACczONxmlQzMfiaOxGWZXULptARiG-cKYUS~qIQI58ibKEe8oGLlCYIq6~53aFqxp~y5PPxTaagLqIoRPnFK46lac46etbPQjN4dzxTquI3bDwf~06KJNdpdiHvSiznt0HLa~RH2ySYCCPlAiWoIqLPTgd1a844V5EyqfbeSfb4v8hjyupXT57H7kNoWHya2qOU~kzm3MTr3bhajzQI2mdY5cpuUV5Ftyza98VWV8WTzDEaBfrjQrmQ1Yt33qRvQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8298/file/Faust_C1_S1.7_V2_1080_2700k.mp4?Expires=1654854871&Signature=MSIponWPmb~jQlFukfYC9WMW7oJQrvY5-zQaFZCLGo5rCWv~3Iiw7U8U27Nib91y7O9G9I5eUNw4yu83lMbS1n-ix7SqPzzWOG5ultFrMFlEVg-mfVymVhsyg9bd7uwxCkV3CvQl~F6Y34hviX2Hk9S8RjEGyynDxe2McrJM7OQxjJtirE5UeQ-wVEiwvdEseCsYEQ5L7GExV9LDIzz0izVopJnhmryk17ZnYbdSrtnQ0P4TfTK9J7hMniC5ZW9VdML4~woale0Y8HLpRjlbOwCCI2ssHHrTa9Os92ZMaUOEA3EuL3tjOKwIT1XXDJh96tjK-qDpY0~MScUT-3YoFg__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16598,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16598/src_file/subtitles-en.vtt?Expires=1654854872&Signature=i-hRjK5dB5f0KaEBBudBqiS3OeqSqq3TlkHU9n9Qra-kICxLNeSR4sc78V3Uw10HzbpECh~jArofzpI2nI08RJEBgwhqJiALpMkNaeDP-q9L3BL0C4VxyK9GsvVkxWeECboSDPVoZuN1XWlVzlQCSVH5VG5eBdVfJUF4eL8RZk~39HNmxajxEBZkDHcmrXf4MCFncIisbCwhEzVjDdomMrY7uwrnoXOzwP6TEv~SzyRxR~nQI1zXl4mKe48yTspunOOC25lMEhVzTOjfCv69NtGEQQRZrvYFntQBw7JwjOkHLd6kxhIp3~ayCqszyH9DGZKOZcXel2MhG-srTEz7XA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8298,
+            "created_at": "2019-01-15T05:39:18.562+01:00",
+            "updated_at": "2019-01-15T05:39:18.562+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": []
+      },
+      {
+        "id": 8296,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8296/file/Faust_C1_S1.8_V2.mov?Expires=1654854872&Signature=R-y9Ww4B3JchqDR6uVjXuXRbyndOCibrOWveKtmaqolvlGnHqGVCA4oRmg3g2EvMFDmawKNMqZgf~b1LBQYLwS1o4GfUgSYiYpZkq4cMasmjLO7I728TG8sq61-qjsc2x6NYj49aB2z~G0H7ziUlo-WVvV4Uv2iN~NZyw6vkUwiCPPgP~j63GoWPovJhOb3~hNmMTD2VNPuHpnc~aVEtnDpaoGObcEZ8m7fJvky0XyATzOM0GkyPsxUlw4yCfhx8zgfMah0rvc-KXDQvCiceOQt9FksmFejLgxvrDCe5FcMrg1uRGnGSzq~CJ3ADVAiHQ0YIJpchP1Mp0GloXk-1DQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8296/file/thumb_Faust_C1_S1.8_V2.jpg?Expires=1654854872&Signature=YN7PLFouwyjnMEHyXciYYDbEpxNsZR-fu5kvF2MBnxMlusXUkK35rxdC---unqYTUri4YTSZfBKT-liMphOwwHXDwsZZJrpfipFtKdSYQL3E-bc6vcI4WKv6Gj9cSbw9WMxI7vHEieXvullS20GGjyRmWMzApHY94~7RJP3-K1uH7yTAL6jWJRD8w9rzSsLRgkMOQVe32XavIF8THFZ~G7WV~YEXiQhTDOmOBX5BHy5FTrwb4hSHfdk6M26lVxmt1KiFHjLCSWwT~SBrnRxi8nifb~Le5W3B7lxCt-3jC5LMehpeX~Waw-PkSvmEwcuaIEOBQ6CsZF3~jacPiOh8~g__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:18:40.918+01:00",
+        "updated_at": "2022-06-03T10:30:09.221+02:00",
+        "order": 8,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "169.59",
+        "size": 83710290,
+        "title": "Additive Synthesizer",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8296/file/Faust_C1_S1.8_V2_360.mp4?Expires=1654854871&Signature=VuMgdMWswFW4RmRexMSoYU5oIytXlU8zk~~XS0lb2x9wtAy0nTo0Hjs~ll4bC1ZWbq5-1QJ~BMAeUXpEsqbn0N38aBPNjS3QlRnmdlo-mHDV9BdeCv~QWZYCrTVcALFfZ5cYShhrYEs-uzk452qbpneSVxCs5c7TQdb3TTDqwiWfluboxxSgdFxvQZkgIYLkUm6vliCuaFuEZ4Xcu-8P~Z-qn6Q9ajc7U5xzzLRNWdEoOOWxfUln2YRwSD3e31eZInZj-lQSsSu~OyDRkfceJQRSzoF34uQmFWaJcNMnkhYFJtZBv7bu6ASAWE0F7l-jpdKGTPtg31kZMK-cqWh8ew__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8296/file/Faust_C1_S1.8_V2_1080_2700k.mp4?Expires=1654854871&Signature=itsr097KPdIP2hqM4XadmKrMSv1v2rXQwHV5zBrX0NcBPEOlJE46xWhwJbsCExf1DTuBRVgKjKqP~RGAMO5UIsHnJYQu3yJ2jTanmcQt2vybeYukZV9tZ4QVCE~igFi5ezwvGP6VfI10HM2ec9hemYtGrXNUw726nu3jCKn72sf3k7rQbfzeG9yvAdK1AbmapufxEHhEjm-qp-Dbmipc1zwEquI5CbookNRlhcJoSPtubm2EbrK3JRPT0pC0pnGO4oSA1oCI6ZHRpt5v~Q7t89pi7sSYstemwoc0cWnW8EI1KQvpX2al-6bcCbtRcyaopH1GV9Q1jDfsw2puKU-08A__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16599,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16599/src_file/subtitles-en.vtt?Expires=1654854872&Signature=jmQeqZGRhL0EFFFf~g~fDAjY-QCCHhhOQ0CfUo-DMgCi~-tN1RPToLe6tkr8q5By~BRUPCed9WaepXHbpUyXCV5lI3rRv1PV3givYCZfsyVXgUDhIzTcmLARVUYKobUTtoGwTmYInr54YRRlCb1MtLnwhbUPTPXUHpL7mhs-f8F7iF9OwZSflE9sDi2MoYgxxwcsyv8L8dvYRiDhG0QcDBOITBhjXp5VDuIICxDGI7yycNuMGCc3-RdT2vLKEoHClHIo5~zs2nWnsfOjHvSZJfNGnvlwPdN6KUi62zzrKOAt8z52KzU1TbmkGNdM3dtSC1R6Q4wAn8-VzGCyr1sS8A__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8296,
+            "created_at": "2019-01-15T05:39:28.856+01:00",
+            "updated_at": "2019-01-15T05:39:28.856+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": []
+      },
+      {
+        "id": 8297,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8297/file/Faust_C1_S1.9_V2.mov?Expires=1654854872&Signature=JfqWPkl-Tjjm11NIvHTgvZO4LcigBLhmhWbTL9RRvhdw4ZcJQzMdV0m~dl5VYfv~0yqBoD9Y1Ro3uojsI8KnOBK~AN5idizfBaISlryqF9cUkPuybHVt40WV3u0xT9knOKUr-V-dlJ88OqZ33OlAWw3hsjjPrN9nFSUy86r0fWz4OvQDWnA8j23YAUtf0v1jQVCcUbRgL45afMFg1jqTf9gFxdQOYyI4x4hhlCZj5rlhXuuc~gUXcWb5sSecbEP0oVwnQoNdgtwjvHhPB4T0heRBek8SMah-fU2uAKudzDI9x2228r9hELY4R0Lzri9hKaeMvOVygukJL0cF3x4K7w__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8297/file/thumb_Faust_C1_S1.9_V2.jpg?Expires=1654854872&Signature=fC4H1bC3rC2E4VnnZ0OerjxPAW7x-hSiItzxsmdHftvmuWHuCJHcQ3rstYpalZyUQogkKNkolHLi5OmLIdgNQ3JnG0bZjEqs36szuDZ5KkMM33oANzcQNtqFWwp8UHzxfh9~b~hYQNhqW7Izx0YjI8YxOyyqb3KhnmuJprZbFdmdDvyWbqeiR-MZOo-sjSeqolhR40IB7vxDtigEnPT2wLGWPbqYy4kL~Hajfp6L62fNIcGbo-6Apk5Qlp1InsK8G--ptQpoh8Du4gDCFxhnwL5jvZXZSC1ulG3B96o-LNLe4QsvixI8vz7DDqAF99lYWvT11846btOoEb7gvoN4GQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:19:31.093+01:00",
+        "updated_at": "2022-06-03T10:36:46.741+02:00",
+        "order": 9,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "260.05",
+        "size": 152217075,
+        "title": "Polyphonic Midi Synthesizer",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8297/file/Faust_C1_S1.9_V2_360.mp4?Expires=1654854872&Signature=AWlqZzclLco~A0tE~-CAymdfzlqdwy~sbqGWyIFYgPHjsk-Tr7HajOKvOjHgcncV91ExQFOMNBaaj5czEXQ3sZ2XvUgd6Af6kSWTBTL9rDH~Vcp0fTJarQif1Y5EMWfsZ6~ve1gZ2BkwpGdBO3nIRzobylfsqmESosZ1g5KQBCWZO7vqAwoK6V6mpuxXIJO31YG5BY-u0nHEXzibDkIgcsve7Pl2GxhgGyzoTZrRNwAGLrxEhbrYb-EUEVJCfL5COC5MXIWAKBDldAqWJkdjVbnHcYLfE4phWyavFsuaCoqDngguZBHiONPzKj-dwViMjQyTZAwi1WHxj8jEwBVs4A__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8297/file/Faust_C1_S1.9_V2_1080_2700k.mp4?Expires=1654854872&Signature=mAyeyoeMUUXgDrI8GCToYQycuobHmzfzrmm3fHcPqZ1lGZ7OGqGzOpUjcDSpi4JlPnCugY1luxeUCEWENVgL4RIM-5hSx4D2WlFJIJyzpcniPn3emTpakiwQod7pnCdq0maFOXqnvT5GGXe3VVkG82y8AsSnPCsF2yrFmw2cwJJJ-Dr5jYyX4LWMb3FA-Twzf-gzZ7cwfVKHFELk~Wg1yxkPRraI5IO7az17JhUjdE0Sq9acnjMnADXYsbikWv286oQ~8KdCI3xxkD7zZmTV2q933HqKeFdsb5QqOrg2px6OZ-cjHiICQzWUwrddVxTT~RdCMtqpkbxPcSK8eABArw__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16600,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16600/src_file/subtitles-en.vtt?Expires=1654854872&Signature=CADxZGAmhFtfd9aWICzjKNRMvOwymznBixDU0Heve-Tja72dUktlD2PNEKK4SrYvYFPmF4FffV5rVLrycrkU4eDmfUeFxXHKqIqve4R7UsaauAlSZSUxMOUwTw~tDv6pJRgKagwesd9tDvPOF1Y50xCoDN3mJ~U1B2lkIGTHjWqxmYBl8Hg48~9opo49IGOwyoWWcNOp2byqdgAooer34m1MQlFVcEjLfXgQsdatPYQUSWEIrQGKlr1Fr5FMMRzloxmm3-sn-fVOHOVYWMhIzdSSq4Yfv3StczPXvBJp4Cv~Bsn5QiilhveJwkSWTUnNPRbhpW0mHOSJKit9hCnbJQ__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8297,
+            "created_at": "2019-01-15T05:39:39.891+01:00",
+            "updated_at": "2019-01-15T05:39:39.891+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": [
+          {
+            "id": 476,
+            "type": "MediaQuestion",
+            "cue_start_time": "121.766",
+            "cue_end_time": "-1.0",
+            "cued": {
+              "id": 10013,
+              "coursework_id": null,
+              "name": "MidiKeys (for Mac): http://www.manyetas.com/creed/midikeys.htmlVMPK (for Linux and Windows): <a href=\"http://vmpk.sourceforge.net/\"...",
+              "gallery": false,
+              "peer_review": false,
+              "created_at": "2019-01-16T00:55:53.235+01:00",
+              "updated_at": "2019-01-16T03:24:12.012+01:00",
+              "required": false,
+              "definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>MidiKeys (for Mac): <a href=\"http://www.manyetas.com/creed/midikeys.html\" target=\"_blank\">http://www.manyetas.com/creed/midikeys.html</a><br><br>VMPK (for Linux and Windows): <a href=\"http://vmpk.sourceforge.net/\" target=\"_blank\">http://vmpk.sourceforge.net/</a></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ],
+              "_type": "MultipleChoiceField",
+              "extra_credit": false,
+              "autograde": null,
+              "old_auto_grader_id": null,
+              "order": null,
+              "auto_grader_entry_point": null,
+              "template_id": null,
+              "editable": true,
+              "auto_grader_version": null,
+              "auto_grader_jsonapi_version": null,
+              "auto_grader_id": null,
+              "plagiarism_detection": false,
+              "check_library_plagiarism": false,
+              "student_plagiarism_visibility": false,
+              "field_definition": [
+                {
+                  "attachment_ids": null,
+                  "attachments": null,
+                  "explaination": "",
+                  "question": "<p>MidiKeys (for Mac): <a href=\"http://www.manyetas.com/creed/midikeys.html\" target=\"_blank\">http://www.manyetas.com/creed/midikeys.html</a><br><br>VMPK (for Linux and Windows): <a href=\"http://vmpk.sourceforge.net/\" target=\"_blank\">http://vmpk.sourceforge.net/</a></p>",
+                  "options": [
+                    {
+                      "answer": "Continue Watching",
+                      "selected": "true"
+                    }
+                  ],
+                  "multi_response": null,
+                  "grading_format": null,
+                  "_type": "MultipleChoiceField"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 8295,
+        "lecture_id": 1005,
+        "media_src": {
+          "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8295/file/Faust_C1_S1.10_V2.mov?Expires=1654854872&Signature=CeQj4x8ISDJNPvGZFUIOadrNvPQBeTc-tPn6xajrKRy2yXNrLKn6xSJo4vN1XfxcgC-N3Sk0x5ajahigCRhFpm-JPN2BkcMFn930eTP7hNdYMD1D2k6xevjS67YIYSe-xjEy92lK1Z0ZhOdHq1F3VGp5YqPZQimkXNFvib-moK5cB~f0mzfjcQyedsErlt~qhxV-ggmx5viMUyE23Du-BXNItz3ndWAQkWI8h-KdBE5qtfeISWsqFmRS642EKr9KIDN9wPadfeugQaVk1mT3Es99vBktOjhb12w2dduhPCgvVF6JIarKmAOhKLgvaMzKfMVjdId1kzMLSikTG3IPKA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+          "thumb": {
+            "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8295/file/thumb_Faust_C1_S1.10_V2.jpg?Expires=1654854872&Signature=lg3grGWXduMkdXogaRMHXp50pIMLQy-PIDRuISStE1TGovQux-9RB-TqV6g~6LGi4Qxv8Mqar4DSrIYt8IrR2tgunboWcf4R0VwQwpIIrUCdR5JUrFaFkGBnLqGTDCXnhDPJH9IweUUaj1rvDTF-cZqbeqPMYkwAKJHTS81c486ZtpfpJlKd40or83GCTz2vqDIhwn7piBPze4yPNjcb3SRMMRrXw3Ho7H75ym56Wn7CG1apmiIvyrz~W4whNaR40cO2JklY1r2ud~PQu9gQMzxB24Op4HpvaxqgXmPbGxggz0ycYXIJXU0naiIfspu5q1apQwdXl-GoYPsrniHbmg__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+          }
+        },
+        "media_src_tmp": null,
+        "media_type": "video/quicktime",
+        "created_at": "2019-01-14T22:17:11.438+01:00",
+        "updated_at": "2022-06-03T10:43:47.623+02:00",
+        "order": 10,
+        "screenshot": {
+          "url": null,
+          "retina": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "retina_thumb": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          },
+          "cinema": {
+            "url": "https://prod-assets.useast1.kadenze.com/assets/courses/cinema_default-0746f01431571c2ffd4f6ddc922694e36f71a79a980b707acd1141b5151944ea.svg"
+          }
+        },
+        "duration": "164.54",
+        "size": 105670212,
+        "title": "Polyphonic Synthesizer and Audio Effect",
+        "completed": false,
+        "progress": "0.0",
+        "type": "NativeMedia",
+        "h264_360_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8295/file/Faust_C1_S1.10_V2_360.mp4?Expires=1654854872&Signature=lKKFA2IDhzo3p9ZplU6wb4jvGzQcMsLI6oHSM2Albn~vQ8WPuXvtzD5aOaVhbZ6L2V~WN-ARQY-pvv0plT6jDh8Z~gBKQGU4wYA3MukJN29vB~Sgi1hlPya5byrhxEoEakTWdIr5DlLHizScun8kQij7-dTE8-7MM-xpt~YhNnG5DX89sJV9I-084Ocx3W~65daXOw-6Q0msj7btzBbpL7S9YgT23806QaRoO~RgPRKRg0lXWYSw9YOSyyo88JXCWJGSepSiL0f~cVmYYJM6WDuiV-QEleSsxPYH6SKIN~NK1Nm9TuNv~UjPynrsFKcGBn5JyuRXOxSnuLzXShYLZA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "h264_720_url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/lecture_medium/8295/file/Faust_C1_S1.10_V2_1080_2700k.mp4?Expires=1654854872&Signature=knP9uVJSLzq2G4IQpNBkUMCFTbEqUrGjIZNmW9g1Yb9X2Y3UQUOLrGePan2gfIrXnrNsJPLRYqWfzdeE1fOYs20fk0XpVGQtozPDB56y-xgabHEYivHzoq8ipwWtnNAe~rC50JKilcmviKpSk4EOHQcNYGXN11mxy6tkC3J8nM98SYvcDVn2Z-~FjGSvNgh~tUKC76Kt8KRxrgZFO5SKm-h~HmuktFt~Z5E2XhTpAU-xpG1eMpwnFIouvkOX94F-IHNJKkJ9fE~yDxLIlIDGa1nUSqAuywY1IfF33qXAe8A9rGG9xWwCLW3uQxVmQex7zZrEHKY8~leg6V3knWKbDA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA",
+        "transcode_status": "completed",
+        "transcode_error_message": null,
+        "user_state_data": {},
+        "accessible": true,
+        "premium_only": false,
+        "downloadable": true,
+        "subtitles": [
+          {
+            "id": 16601,
+            "src_file": {
+              "url": "https://prod-uploads-priv.useast1.kadenze.com/prod/usr/uploads/subtitle/16601/src_file/subtitles-en.vtt?Expires=1654854872&Signature=lsvaKrErI-CkA~S35SnIzMPBi30gaXa3adaq~E~CBy~rWMVT~uGaH6tVyzDIcnq9rDkLSUdjscnnzvUdtZB90B8m0BT6UbLWSpQBLM~Renj-aQ75LOtMA7VUJNRtr3m72qj8AnNzVP4fxYa7cyPzMGyg3usBAdXB4tAiXpB9bFW5v7bFGow4nWEx-3kDxaTC695PxkAiJ0j9NN~1fwXJ84NG86znZ7Hjqcbqk1t9hhUU~ABX3E0SGRBVJ7h0pjI7Qf4nKW0N-PM85d~KiqksDwK8U~Fe5AhaY6cHRFjThr4FFHMzdxbNcw9j0Q~TfIGu9fgjovLTBlH22jG5P9JjvA__&Key-Pair-Id=APKAI3WTOBWXO6VZASUA"
+            },
+            "srclang": "en",
+            "label": "English",
+            "subtitleable_id": 8295,
+            "created_at": "2019-01-15T05:39:51.118+01:00",
+            "updated_at": "2019-01-15T05:39:51.118+01:00",
+            "subtitleable_type": "LectureMedium"
+          }
+        ],
+        "is_transcoding_completed": true,
+        "is_transcoding_error": false,
+        "is_transcoding_processing": false,
+        "media_cues": []
+      }
+    ]
+  }
