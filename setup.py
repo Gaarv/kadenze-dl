@@ -15,6 +15,6 @@ setup(
     ],
     url="https://github.com/gaarv/kadenze-dl",
     keywords=["kadenze", "download", "videos"],
-    packages=find_packages(),
+    packages=["kadenze_dl"],
     python_requires=">=3.8, <4",
 )
