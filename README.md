@@ -8,16 +8,28 @@ Small application to download Kadenze (https://www.kadenze.com) videos for cours
 Download videos for offline usage / archive based on your profile information given in the configuration file to download videos courses.
 
 
-## Install
+## Install (Docker)
 
+Image size is 1.86GB.
+
+    docker pull <repository/image>
+
+## Install (from sources)
 
 Preferably in a virtual environment, install package (Python >=3.8). Download or clone repository, then into root directory:
 
     pip3 install -U .
 
 
-## Usage 
+## Usage (Docker)
 
+    docker run --rm \
+        -v /path/to/download:/tmp/download \
+        -v /absolute/path/to/configuration.yml:/app/configuration.yml \
+        <repository/image> ./kadenze-dl --config-file /app/configuration.yml
+
+
+## Usage (from sources)
 
 Change directory to `kadenze_dl`:
 
