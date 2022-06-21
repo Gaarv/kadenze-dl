@@ -18,4 +18,6 @@ WORKDIR /app
 
 COPY --from=builder /app/dist .
 
-CMD ["./kadenze-dl"]
+ENV PATH="/app:${PATH}"
+
+CMD ["kadenze-dl"]
