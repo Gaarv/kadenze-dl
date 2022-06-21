@@ -87,7 +87,7 @@ def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int 
         size_on_disk = check_if_file_exists(full_path, filename)
         if size_on_disk < size:
             full_path.mkdir(parents=True, exist_ok=True)
-            r = requests.get(video_url, stream=True)
+            r = requests.get(video_url, stream=True, proxies=_proxy)
             current_size = 0
             with open(full_path / filename, "wb") as f:
                 for chunk in r.iter_content(chunk_size=chunk_size):
