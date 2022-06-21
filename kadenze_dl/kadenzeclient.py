@@ -112,7 +112,7 @@ class KadenzeClient:
             full_path = download_path / video.session.course / session_prefix
             full_path.mkdir(parents=True, exist_ok=True)
             filename = utils.get_video_title(video.title, filename)
-            utils.write_video(video.url, full_path, filename)
+            utils.write_video(video.url, full_path, filename, proxy=self.conf.proxy)
         else:
             typer.secho(
                 f"Could not extract filename: video={video.title}, session={video.session.name}, course={video.session.course}. Skipping...",

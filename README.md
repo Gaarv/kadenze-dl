@@ -3,20 +3,51 @@
 kadenze-dl
 ===
 
-Small application to download Kadenze (https://www.kadenze.com) videos for courses you enrolled in.
+Application to download Kadenze (https://www.kadenze.com) videos for courses you enrolled in.
 
 Download videos for offline usage / archive based on your profile information given in the configuration file to download videos courses.
 
 
-## Install
+## Docker
 
+Image size is 1.86GB.
+
+    docker pull ghcr.io/gaarv/kadenze-dl:latest
+
+
+Pass options to command line:
+
+    docker run --rm \
+        -v /absolute/local/path/to/download:/app/download \
+        ghcr.io/gaarv/kadenze-dl kadenze-dl \
+        --login "myemail@gmail.com" \
+        --password "mypassword" \
+        --download-path /app/download
+
+Here, `/absolute/local/path/to/download` is where you want to do download videos on your system. Other paths defined in the command line as `/app/download` do not need changes as they refer to the Docker internal path.
+
+
+You may also use a [Configuration file](#configuration-file):
+
+    docker run --rm \
+        -v /absolute/local/path/to/download:/app/download \
+        -v /absolute/local/path/to/configuration.yml:/app/configuration.yml \
+        ghcr.io/gaarv/kadenze-dl kadenze-dl \
+        --config-file /app/configuration.yml
+
+In this setup, the download path defined in the configuration file must match the Docker internal path `/app/download`
+
+
+List all available options with:
+
+    docker run --rm ghcr.io/gaarv/kadenze-dl kadenze-dl --help
+
+
+## From source
 
 Preferably in a virtual environment, install package (Python >=3.8). Download or clone repository, then into root directory:
 
     pip3 install -U .
-
-
-## Usage 
 
 
 Change directory to `kadenze_dl`:
@@ -26,7 +57,15 @@ Change directory to `kadenze_dl`:
 
 Run the app, example:
 
-    python3 kadenze-dl.py --login "myemail@gmail.com" --password "mypassword" --download-path /home/user/videos/kadenze
+    python3 kadenze-dl.py \
+        --login "myemail@gmail.com" \
+        --password "mypassword" \
+        --download-path /home/user/videos/kadenze
+
+
+List all available options with:
+
+    python3 kadenze-dl.py --help
 
 
 ## Configuration file
@@ -75,13 +114,6 @@ For manual selected courses, you can get links from the "Home" page of your acco
 ![Home](./images/kadenze1.png)
 
 ![Dashboard](./images/kadenze2.png)
-
-
-## Help
-
-List all commands available with 
-
-    python3 kadenze-dl.py --help
 
 
 ## Notes

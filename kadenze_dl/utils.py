@@ -80,13 +80,14 @@ def get_video_title(video_title: str, filename: str) -> str:
     return video_title
 
 
-def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int = 4096) -> None:  # pragma: no cover
+def write_video(video_url: str, full_path: Path, filename: str, chunk_size: int = 4096, proxy: Optional[str] = None) -> None:  # pragma: no cover
     try:
-        size = int(requests.head(video_url).headers["Content-Length"])
+        _proxy = {"http": proxy, "https": proxy} if proxy else None
+        size = int(requests.head(video_url, proxies=_proxy).headers["Content-Length"])
         size_on_disk = check_if_file_exists(full_path, filename)
         if size_on_disk < size:
             full_path.mkdir(parents=True, exist_ok=True)
-            r = requests.get(video_url, stream=True)
+            r = requests.get(video_url, stream=True, proxies=_proxy)
             current_size = 0
             with open(full_path / filename, "wb") as f:
                 for chunk in r.iter_content(chunk_size=chunk_size):

@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="kadenze-dl",
-    version="1.1.0",
+    version="1.2.0",
     description="Small application to download Kadenze (https://www.kadenze.com) videos for courses you enrolled in",
     author="Gaarv",
     author_email="gaarv@users.noreply.github.com",

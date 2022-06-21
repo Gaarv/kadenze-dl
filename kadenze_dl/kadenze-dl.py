@@ -25,7 +25,7 @@ def main(
             typer.secho(f"Loading configuration from {config_file.as_posix()}", fg=typer.colors.GREEN)
         if config_file or all([login, password, download_path]):
             settings = build_settings(courses, resolution, config_file, login, password, download_path, proxy)
-            subprocess.run(["playwright", "install"])
+            subprocess.run(["playwright", "install", "firefox"])
             kadenze_client = KadenzeClient(settings)
             kadenze_client.download_all_courses_videos()
         else:
