@@ -38,4 +38,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           push: true
-          tags: gaarv/kadenze-dl:latest
+          tags: ghcr.io/gaarv/kadenze-dl:latest
